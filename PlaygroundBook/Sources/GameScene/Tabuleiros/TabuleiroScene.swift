@@ -30,49 +30,7 @@ class TabuleiroScene: SKScene {
         
         let width = 414/div
         let height = 595/div
-        
-        let A = SKSpriteNode(imageNamed: "Tabuleiro_A_char")
-        A.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace)
-        A.size = CGSize(width: width, height: height)
-        A.zPosition = 1
-        addChild(A)
-        
-        let B = SKSpriteNode(imageNamed: "Tabuleiro_B_char")
-        B.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace)
-        B.size = CGSize(width: width, height: height)
-        B.zPosition = 1
-        addChild(B)
-        
-        let C = SKSpriteNode(imageNamed: "Tabuleiro_C_char")
-        C.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace)
-        C.size = CGSize(width: width, height: height)
-        C.zPosition = 1
-        addChild(C)
-        
-        let D = SKSpriteNode(imageNamed: "Tabuleiro_D_char")
-        D.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace)
-        D.size = CGSize(width: width, height: height)
-        D.zPosition = 1
-        addChild(D)
-        
-        let E = SKSpriteNode(imageNamed: "Tabuleiro_E_char")
-        E.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace)
-        E.size = CGSize(width: width, height: height)
-        E.zPosition = 1
-        addChild(E)
-        
-        let F = SKSpriteNode(imageNamed: "Tabuleiro_F_char")
-        F.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace)
-        F.size = CGSize(width: width, height: height)
-        F.zPosition = 1
-        addChild(F)
-        
-        let G = SKSpriteNode(imageNamed: "Tabuleiro_G_char")
-        G.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(0*downSpace))
-        G.size = CGSize(width: width, height: height)
-        G.zPosition = 1
-        addChild(G)
-        
+
         //--------------------------------------------------------------
         
         let H = SKSpriteNode(imageNamed: "Tabuleiro_H_char")

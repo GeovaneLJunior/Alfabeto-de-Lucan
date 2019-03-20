@@ -11,12 +11,18 @@ import GameKit
 
 class ConsoanteScene: SKScene {
     
+    let general = FIrstScene()
+    
     override func didMove(to view: SKView) {
         if let labe = self.childNode(withName: "label") as? SKLabelNode{
             labe.text = " foi \(coiso2)"
         }
         creatBoard()
     }
+    
+    
+    
+   
     
     func creatBoard () {
         

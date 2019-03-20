@@ -7,12 +7,15 @@
 
 import Foundation
 
-enum Tipo  {
+enum Tipo : String{
     case Tabuleiro
+    case Consoante
+    case Vogal
     
+    func tabuleiroAtual() -> String {
+        return self.rawValue
+    }
 }
-
-var tal = "\(Tipo.Tabuleiro(state: tabu))"
 
 enum Estado :String {
     case char
@@ -124,6 +127,3 @@ enum Vogal :String {
         return self.rawValue
     }
 }
-
-
-
