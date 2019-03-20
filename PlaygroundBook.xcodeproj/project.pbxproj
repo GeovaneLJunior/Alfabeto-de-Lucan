@@ -852,8 +852,8 @@
 		CBF3B223224296960095372D /* Tabuleiros */ = {
 			isa = PBXGroup;
 			children = (
-				CBF3B22A224296F80095372D /* TabuleiroScene.swift */,
 				CBF3B22C224297140095372D /* TabuleiroScene.sks */,
+				CBF3B22A224296F80095372D /* TabuleiroScene.swift */,
 			);
 			path = Tabuleiros;
 			sourceTree = "<group>";
