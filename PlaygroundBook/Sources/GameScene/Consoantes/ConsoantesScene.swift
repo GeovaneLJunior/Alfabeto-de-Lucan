@@ -20,180 +20,146 @@ class ConsoanteScene: SKScene {
     
     func creatBoard () {
         
-        let div = 2
+        let div = 1
         
         let sideSpace = 280
-        let upSpace = -300
+        let upSpace = -420
         
         let nextSpace = 250
         let downSpace = 320
         
-        let width = 414/div
-        let height = 595/div
+        let width = 176/div
+        let height = 55/div
         
-        let A = SKSpriteNode(imageNamed: "Tabuleiro_A_char")
-        A.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace)
-        A.size = CGSize(width: width, height: height)
-        A.zPosition = 1
-        addChild(A)
+        let b = SKSpriteNode(imageNamed: "Consoante_b_char")
+        b.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace)
+        b.size = CGSize(width: width, height: height)
+        b.zPosition = 1
+        addChild(b)
         
-        let B = SKSpriteNode(imageNamed: "Tabuleiro_B_char")
-        B.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace)
-        B.size = CGSize(width: width, height: height)
-        B.zPosition = 1
-        addChild(B)
+        let c = SKSpriteNode(imageNamed: "Consoante_c_char")
+        c.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace)
+        c.size = CGSize(width: width, height: height)
+        c.zPosition = 1
+        addChild(c)
         
-        let C = SKSpriteNode(imageNamed: "Tabuleiro_C_char")
-        C.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace)
-        C.size = CGSize(width: width, height: height)
-        C.zPosition = 1
-        addChild(C)
+        let d = SKSpriteNode(imageNamed: "Consoante_d_char")
+        d.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace)
+        d.size = CGSize(width: width, height: height)
+        d.zPosition = 1
+        addChild(d)
         
-        let D = SKSpriteNode(imageNamed: "Tabuleiro_D_char")
-        D.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace)
-        D.size = CGSize(width: width, height: height)
-        D.zPosition = 1
-        addChild(D)
+        let f = SKSpriteNode(imageNamed: "Consoante_f_char")
+        f.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace)
+        f.size = CGSize(width: width, height: height)
+        f.zPosition = 1
+        addChild(f)
         
-        let E = SKSpriteNode(imageNamed: "Tabuleiro_E_char")
-        E.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace)
-        E.size = CGSize(width: width, height: height)
-        E.zPosition = 1
-        addChild(E)
+        let g = SKSpriteNode(imageNamed: "Consoante_g_char")
+        g.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace)
+        g.size = CGSize(width: width, height: height)
+        g.zPosition = 1
+        addChild(g)
         
-        let F = SKSpriteNode(imageNamed: "Tabuleiro_F_char")
-        F.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace)
-        F.size = CGSize(width: width, height: height)
-        F.zPosition = 1
-        addChild(F)
+        let h = SKSpriteNode(imageNamed: "Consoante_h_char")
+        h.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace)
+        h.size = CGSize(width: width, height: height)
+        h.zPosition = 1
+        addChild(h)
         
-        let G = SKSpriteNode(imageNamed: "Tabuleiro_G_char")
-        G.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(0*downSpace))
-        G.size = CGSize(width: width, height: height)
-        G.zPosition = 1
-        addChild(G)
+        let j = SKSpriteNode(imageNamed: "Consoante_j_char")
+        j.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(0*downSpace))
+        j.size = CGSize(width: width, height: height)
+        j.zPosition = 1
+        addChild(j)
         
-        //--------------------------------------------------------------
+        // -----------------------------------------------------------
         
-        let H = SKSpriteNode(imageNamed: "Tabuleiro_H_char")
-        H.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(1*downSpace))
-        H.size = CGSize(width: width, height: height)
-        H.zPosition = 1
-        addChild(H)
+        let k = SKSpriteNode(imageNamed: "Consoante_k_char")
+        k.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(1*downSpace))
+        k.size = CGSize(width: width, height: height)
+        k.zPosition = 1
+        addChild(k)
         
-        let I = SKSpriteNode(imageNamed: "Tabuleiro_I_char")
-        I.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(1*downSpace))
-        I.size = CGSize(width: width, height: height)
-        I.zPosition = 1
-        addChild(I)
+        let l = SKSpriteNode(imageNamed: "Consoante_l_char")
+        l.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(1*downSpace))
+        l.size = CGSize(width: width, height: height)
+        l.zPosition = 1
+        addChild(l)
         
-        let J = SKSpriteNode(imageNamed: "Tabuleiro_J_char")
-        J.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(1*downSpace))
-        J.size = CGSize(width: width, height: height)
-        J.zPosition = 1
-        addChild(J)
+        let m = SKSpriteNode(imageNamed: "Consoante_m_char")
+        m.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(1*downSpace))
+        m.size = CGSize(width: width, height: height)
+        m.zPosition = 1
+        addChild(m)
         
-        let K = SKSpriteNode(imageNamed: "Tabuleiro_K_char")
-        K.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(1*downSpace))
-        K.size = CGSize(width: width, height: height)
-        K.zPosition = 1
-        addChild(K)
+        let n = SKSpriteNode(imageNamed: "Consoante_n_char")
+        n.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(1*downSpace))
+        n.size = CGSize(width: width, height: height)
+        n.zPosition = 1
+        addChild(n)
         
-        let L = SKSpriteNode(imageNamed: "Tabuleiro_L_char")
-        L.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(1*downSpace))
-        L.size = CGSize(width: width, height: height)
-        L.zPosition = 1
-        addChild(L)
+        let p = SKSpriteNode(imageNamed: "Consoante_p_char")
+        p.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(1*downSpace))
+        p.size = CGSize(width: width, height: height)
+        p.zPosition = 1
+        addChild(p)
         
-        let M = SKSpriteNode(imageNamed: "Tabuleiro_M_char")
-        M.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(1*downSpace))
-        M.size = CGSize(width: width, height: height)
-        M.zPosition = 1
-        addChild(M)
+        let q = SKSpriteNode(imageNamed: "Consoante_q_char")
+        q.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(1*downSpace))
+        q.size = CGSize(width: width, height: height)
+        q.zPosition = 1
+        addChild(q)
         
-        let N = SKSpriteNode(imageNamed: "Tabuleiro_N_char")
-        N.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(1*downSpace))
-        N.size = CGSize(width: width, height: height)
-        N.zPosition = 1
-        addChild(N)
+        let r = SKSpriteNode(imageNamed: "Consoante_r_char")
+        r.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(1*downSpace))
+        r.size = CGSize(width: width, height: height)
+        r.zPosition = 1
+        addChild(r)
         
-        //--------------------------------------------------------------
+        // -----------------------------------------------------------
         
-        let O = SKSpriteNode(imageNamed: "Tabuleiro_O_char")
-        O.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(2*downSpace))
-        O.size = CGSize(width: width, height: height)
-        O.zPosition = 1
-        addChild(O)
+        let s = SKSpriteNode(imageNamed: "Consoante_s_char")
+        s.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(2*downSpace))
+        s.size = CGSize(width: width, height: height)
+        s.zPosition = 1
+        addChild(s)
         
-        let P = SKSpriteNode(imageNamed: "Tabuleiro_P_char")
-        P.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(2*downSpace))
-        P.size = CGSize(width: width, height: height)
-        P.zPosition = 1
-        addChild(P)
+        let t = SKSpriteNode(imageNamed: "Consoante_t_char")
+        t.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(2*downSpace))
+        t.size = CGSize(width: width, height: height)
+        t.zPosition = 1
+        addChild(t)
         
-        let Q = SKSpriteNode(imageNamed: "Tabuleiro_Q_char")
-        Q.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(2*downSpace))
-        Q.size = CGSize(width: width, height: height)
-        Q.zPosition = 1
-        addChild(Q)
+        let v = SKSpriteNode(imageNamed: "Consoante_v_char")
+        v.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(2*downSpace))
+        v.size = CGSize(width: width, height: height)
+        v.zPosition = 1
+        addChild(v)
         
-        let R = SKSpriteNode(imageNamed: "Tabuleiro_R_char")
-        R.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(2*downSpace))
-        R.size = CGSize(width: width, height: height)
-        R.zPosition = 1
-        addChild(R)
+        let w = SKSpriteNode(imageNamed: "Consoante_w_char")
+        w.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(2*downSpace))
+        w.size = CGSize(width: width, height: height)
+        w.zPosition = 1
+        addChild(w)
         
-        let S = SKSpriteNode(imageNamed: "Tabuleiro_S_char")
-        S.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(2*downSpace))
-        S.size = CGSize(width: width, height: height)
-        S.zPosition = 1
-        addChild(S)
+        let x = SKSpriteNode(imageNamed: "Consoante_x_char")
+        x.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(2*downSpace))
+        x.size = CGSize(width: width, height: height)
+        x.zPosition = 1
+        addChild(x)
         
-        let T = SKSpriteNode(imageNamed: "Tabuleiro_T_char")
-        T.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(2*downSpace))
-        T.size = CGSize(width: width, height: height)
-        T.zPosition = 1
-        addChild(T)
+        let y = SKSpriteNode(imageNamed: "Consoante_y_char")
+        y.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(2*downSpace))
+        y.size = CGSize(width: width, height: height)
+        y.zPosition = 1
+        addChild(y)
         
-        let U = SKSpriteNode(imageNamed: "Tabuleiro_U_char")
-        U.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(2*downSpace))
-        U.size = CGSize(width: width, height: height)
-        U.zPosition = 1
-        addChild(U)
-        
-        //--------------------------------------------------------------
-        
-        let V = SKSpriteNode(imageNamed: "Tabuleiro_V_char")
-        V.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(3*downSpace))
-        V.size = CGSize(width: width, height: height)
-        V.zPosition = 1
-        addChild(V)
-        
-        let W = SKSpriteNode(imageNamed: "Tabuleiro_W_char")
-        W.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(3*downSpace))
-        W.size = CGSize(width: width, height: height)
-        W.zPosition = 1
-        addChild(W)
-        
-        let X = SKSpriteNode(imageNamed: "Tabuleiro_X_char")
-        X.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(3*downSpace))
-        X.size = CGSize(width: width, height: height)
-        X.zPosition = 1
-        addChild(X)
-        
-        let Y = SKSpriteNode(imageNamed: "Tabuleiro_Y_char")
-        Y.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(3*downSpace))
-        Y.size = CGSize(width: width, height: height)
-        Y.zPosition = 1
-        addChild(Y)
-        
-        let Z = SKSpriteNode(imageNamed: "Tabuleiro_Z_char")
-        Z.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(3*downSpace))
-        Z.size = CGSize(width: width, height: height)
-        Z.zPosition = 1
-        addChild(Z)
-        
-        //--------------------------------------------------------------
+        let z = SKSpriteNode(imageNamed: "Consoante_z_char")
+        z.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(2*downSpace))
+        z.size = CGSize(width: width, height: height)
+        z.zPosition = 1
+        addChild(z)
         
     }
 }

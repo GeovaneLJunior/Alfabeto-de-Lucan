@@ -17,4 +17,7 @@ class FIrstScene: SKScene {
         creatBoard()
     }
     
+    func creatBoard(){
+        
+    }
 }
