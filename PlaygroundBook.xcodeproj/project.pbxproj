@@ -184,6 +184,8 @@
 		CBF3B22D224297140095372D /* TabuleiroScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B22C224297140095372D /* TabuleiroScene.sks */; };
 		CBF3B22F2242975A0095372D /* VogaisScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B22E2242975A0095372D /* VogaisScene.sks */; };
 		CBF3B231224297640095372D /* VogaisScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B230224297640095372D /* VogaisScene.swift */; };
+		CBF3B2522242D2480095372D /* classCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B2512242D2480095372D /* classCard.swift */; };
+		CBF3B2542242D48F0095372D /* enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B2532242D48F0095372D /* enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -439,6 +441,8 @@
 		CBF3B22C224297140095372D /* TabuleiroScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TabuleiroScene.sks; sourceTree = "<group>"; };
 		CBF3B22E2242975A0095372D /* VogaisScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = VogaisScene.sks; sourceTree = "<group>"; };
 		CBF3B230224297640095372D /* VogaisScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogaisScene.swift; sourceTree = "<group>"; };
+		CBF3B2512242D2480095372D /* classCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classCard.swift; sourceTree = "<group>"; };
+		CBF3B2532242D48F0095372D /* enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -580,6 +584,7 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CBF3B2502242D2390095372D /* Model */,
 				CBD06AE722417D8E0019185F /* GameScene */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
@@ -874,6 +879,15 @@
 				CBD06AEA22417E880019185F /* FIrstScene.swift */,
 			);
 			path = BoardScene;
+			sourceTree = "<group>";
+		};
+		CBF3B2502242D2390095372D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3B2512242D2480095372D /* classCard.swift */,
+				CBF3B2532242D48F0095372D /* enums.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1191,8 +1205,10 @@
 				CBF3B22B224296F80095372D /* TabuleiroScene.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				CBF3B231224297640095372D /* VogaisScene.swift in Sources */,
+				CBF3B2522242D2480095372D /* classCard.swift in Sources */,
 				CBF3B229224296E80095372D /* ConsoantesScene.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				CBF3B2542242D48F0095372D /* enums.swift in Sources */,
 				CBD06AEB22417E880019185F /* FIrstScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
