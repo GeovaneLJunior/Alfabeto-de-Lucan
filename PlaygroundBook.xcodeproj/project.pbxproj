@@ -22,8 +22,6 @@
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
 		CBD06AE922417DBF0019185F /* scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBD06AE822417DBF0019185F /* scene.sks */; };
 		CBD06AEB22417E880019185F /* FIrstScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD06AEA22417E880019185F /* FIrstScene.swift */; };
-		CBF3B0D5224271510095372D /* classEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B0D4224271510095372D /* classEnums.swift */; };
-		CBF3B0D72242728C0095372D /* classPeça.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B0D62242728C0095372D /* classPeça.swift */; };
 		CBF3B17E224274290095372D /* Consoante_z_char.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B0DA224274290095372D /* Consoante_z_char.png */; };
 		CBF3B17F224274290095372D /* Consoante_q_char.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B0DB224274290095372D /* Consoante_q_char.png */; };
 		CBF3B180224274290095372D /* Consoante_p_char.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B0DC224274290095372D /* Consoante_p_char.png */; };
@@ -180,8 +178,6 @@
 		CBF3B217224274290095372D /* Vogal_u_simbol.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B17B224274290095372D /* Vogal_u_simbol.png */; };
 		CBF3B218224274290095372D /* Vogal_ue_simbol.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B17C224274290095372D /* Vogal_ue_simbol.png */; };
 		CBF3B219224274290095372D /* Vogal_io_simbol.png in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B17D224274290095372D /* Vogal_io_simbol.png */; };
-		CBF3B21F224282E40095372D /* gameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B21E224282E40095372D /* gameController.swift */; };
-		CBF3B221224290F80095372D /* arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B220224290F80095372D /* arrays.swift */; };
 		CBF3B227224296DD0095372D /* ConsoantesScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B226224296DD0095372D /* ConsoantesScene.sks */; };
 		CBF3B229224296E80095372D /* ConsoantesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B228224296E80095372D /* ConsoantesScene.swift */; };
 		CBF3B22B224296F80095372D /* TabuleiroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B22A224296F80095372D /* TabuleiroScene.swift */; };
@@ -281,8 +277,6 @@
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 		CBD06AE822417DBF0019185F /* scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = scene.sks; sourceTree = "<group>"; };
 		CBD06AEA22417E880019185F /* FIrstScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIrstScene.swift; sourceTree = "<group>"; };
-		CBF3B0D4224271510095372D /* classEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classEnums.swift; sourceTree = "<group>"; };
-		CBF3B0D62242728C0095372D /* classPeça.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "classPeça.swift"; sourceTree = "<group>"; };
 		CBF3B0DA224274290095372D /* Consoante_z_char.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Consoante_z_char.png; sourceTree = "<group>"; };
 		CBF3B0DB224274290095372D /* Consoante_q_char.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Consoante_q_char.png; sourceTree = "<group>"; };
 		CBF3B0DC224274290095372D /* Consoante_p_char.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Consoante_p_char.png; sourceTree = "<group>"; };
@@ -439,8 +433,6 @@
 		CBF3B17B224274290095372D /* Vogal_u_simbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vogal_u_simbol.png; sourceTree = "<group>"; };
 		CBF3B17C224274290095372D /* Vogal_ue_simbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vogal_ue_simbol.png; sourceTree = "<group>"; };
 		CBF3B17D224274290095372D /* Vogal_io_simbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vogal_io_simbol.png; sourceTree = "<group>"; };
-		CBF3B21E224282E40095372D /* gameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameController.swift; sourceTree = "<group>"; };
-		CBF3B220224290F80095372D /* arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrays.swift; sourceTree = "<group>"; };
 		CBF3B226224296DD0095372D /* ConsoantesScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ConsoantesScene.sks; sourceTree = "<group>"; };
 		CBF3B228224296E80095372D /* ConsoantesScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoantesScene.swift; sourceTree = "<group>"; };
 		CBF3B22A224296F80095372D /* TabuleiroScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabuleiroScene.swift; sourceTree = "<group>"; };
@@ -588,8 +580,6 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CBF3B21B224282C80095372D /* Controller */,
-				CBF3B0D3224271430095372D /* Model */,
 				CBD06AE722417D8E0019185F /* GameScene */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
@@ -614,16 +604,6 @@
 				CBF3B222224296930095372D /* Vogais */,
 			);
 			path = GameScene;
-			sourceTree = "<group>";
-		};
-		CBF3B0D3224271430095372D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CBF3B0D4224271510095372D /* classEnums.swift */,
-				CBF3B0D62242728C0095372D /* classPeça.swift */,
-				CBF3B220224290F80095372D /* arrays.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		CBF3B0D8224274290095372D /* Letras */ = {
@@ -858,14 +838,6 @@
 				CBF3B17D224274290095372D /* Vogal_io_simbol.png */,
 			);
 			path = Vogais;
-			sourceTree = "<group>";
-		};
-		CBF3B21B224282C80095372D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CBF3B21E224282E40095372D /* gameController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		CBF3B222224296930095372D /* Vogais */ = {
@@ -1218,12 +1190,8 @@
 			files = (
 				CBF3B22B224296F80095372D /* TabuleiroScene.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
-				CBF3B21F224282E40095372D /* gameController.swift in Sources */,
 				CBF3B231224297640095372D /* VogaisScene.swift in Sources */,
-				CBF3B0D72242728C0095372D /* classPeça.swift in Sources */,
 				CBF3B229224296E80095372D /* ConsoantesScene.swift in Sources */,
-				CBF3B221224290F80095372D /* arrays.swift in Sources */,
-				CBF3B0D5224271510095372D /* classEnums.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
 				CBD06AEB22417E880019185F /* FIrstScene.swift in Sources */,
 			);
