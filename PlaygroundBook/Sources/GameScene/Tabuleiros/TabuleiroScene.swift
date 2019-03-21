@@ -10,8 +10,10 @@ import SpriteKit
 import GameKit
 
 class TabuleiroScene: SKScene {
+
     
     override func didMove(to view: SKView) {
+        
         if let labe = self.childNode(withName: "label") as? SKLabelNode{
             labe.text = " foi \(coiso2)"
         }

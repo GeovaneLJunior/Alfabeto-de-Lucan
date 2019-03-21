@@ -28,8 +28,8 @@ public func instantiateLiveView() -> PlaygroundLiveViewable {
 
 public func returnSprite () -> SKView {
     // Load the SKScene from 'GameScene.sks'
-    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
-    if let scene = FIrstScene(fileNamed: "scene") {
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 2058, height: 1560))
+    if let scene = FIrstScene(fileNamed: "FIrstScene") {
         // Set the scale mode to scale to fit the window
         scene.scaleMode = .aspectFit
         

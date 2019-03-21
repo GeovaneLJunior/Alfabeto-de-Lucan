@@ -9,7 +9,7 @@ import Foundation
 import SpriteKit
 import GameKit
 
-class ConsoanteScene: SKScene {
+class ConsoantesScene: SKScene {
     
     let general = FIrstScene()
     

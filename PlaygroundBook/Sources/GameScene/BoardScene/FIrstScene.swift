@@ -62,7 +62,6 @@ class FIrstScene: SKScene {
             label: " ",
             fontSize: 0,
             fontNamed: " ") {
-                
                 self.transitionToConsonants()
         }
         self.addChild(buttomConwonant)
@@ -111,7 +110,7 @@ class FIrstScene: SKScene {
     }
     
     func transitionToConsonants() {
-        let scene = ConsoanteScene(fileNamed: "ConsoanteScene")
+        let scene = ConsoantesScene(fileNamed: "ConsoantesScene")
         scene?.scaleMode = .aspectFit
         self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
     }
