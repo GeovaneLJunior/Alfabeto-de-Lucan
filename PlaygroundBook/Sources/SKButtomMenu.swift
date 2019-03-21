@@ -1,14 +1,14 @@
 //
-//  SKButton.swift
-//  firstGame
+//  SKButtomMenu.swift
+//  Book_Sources
 //
-//  Created by Victor Vasconcelos on 16/07/2018.
-//  Copyright © 2018 Infinity. All rights reserved.
+//  Created by Geovane Leandro da Costa Junior on 21/03/19.
 //
 
 import SpriteKit
 
-public class ButtonNode: SKNode {
+public class ButtonNodeMenu: SKNode {
+    
     var defaultButton: SKSpriteNode
     var activeButton: SKSpriteNode
     var buttonLabel: SKLabelNode
@@ -20,6 +20,10 @@ public class ButtonNode: SKNode {
                 sizeWidth : CGFloat,
                 sizeheight: CGFloat,
                 zPosition : CGFloat,
+                
+                ancorPonitX : CGFloat,
+                ancorPonitY : CGFloat,
+                
                 activeButtonImage: String,
                 label: String,
                 fontSize: CGFloat,
@@ -30,11 +34,14 @@ public class ButtonNode: SKNode {
         defaultButton.position = CGPoint(x: positionX, y: positionY)
         defaultButton.size = CGSize(width: sizeWidth, height: sizeheight)
         defaultButton.zPosition = zPosition
+        defaultButton.anchorPoint = CGPoint(x: ancorPonitX, y: ancorPonitY)
         
         activeButton = SKSpriteNode(imageNamed: activeButtonImage)
         activeButton.position = CGPoint(x: positionX, y: positionY)
-        activeButton.size = CGSize(width: 1.5*sizeWidth, height: 1.5*sizeheight)
+        activeButton.size = CGSize(width: 1.1*sizeWidth, height: 1.1*sizeheight)
         activeButton.zPosition = zPosition+2
+        activeButton.anchorPoint = CGPoint(x: ancorPonitX, y: ancorPonitY)
+        
         
         buttonLabel = SKLabelNode(fontNamed: fontNamed)
         
@@ -50,15 +57,15 @@ public class ButtonNode: SKNode {
         //buttonLabel.fontColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         
         super.init()
-//
+        //
         isUserInteractionEnabled = true
         if defaultButtonImage.isEmpty || activeButtonImage.isEmpty {
-
+            
         }else{
             addChild(defaultButton)
             addChild(activeButton)
         }
-
+        
         addChild(buttonLabel)
     }
     
@@ -66,12 +73,12 @@ public class ButtonNode: SKNode {
      Required so XCode doesn't throw warnings
      */
     
-   public required init(coder aDecoder: NSCoder) {
+    public required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        print("touchesBegan")
+        //        print("touchesBegan")
         activeButton.isHidden = false
         buttonLabel.fontColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         defaultButton.isHidden = true
@@ -81,19 +88,19 @@ public class ButtonNode: SKNode {
         
         let touch: UITouch = touches.first!
         let location: CGPoint = touch.location(in: self)
-
+        
         if defaultButton.contains(location) || buttonLabel.contains(location){
             activeButton.isHidden = false
             defaultButton.isHidden = true
         } else {
             activeButton.isHidden = true
             defaultButton.isHidden = false
-
+            
         }
     }
     
     override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        print("touchesEnded")
+        //        print("touchesEnded")
         let touch: UITouch = touches.first!
         let location: CGPoint = touch.location(in: self)
         
@@ -110,3 +117,4 @@ public class ButtonNode: SKNode {
         buttonLabel.text = label
     }
 }
+

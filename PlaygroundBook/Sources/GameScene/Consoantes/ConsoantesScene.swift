@@ -26,146 +26,299 @@ class ConsoanteScene: SKScene {
     
     func creatBoard () {
         
-        let div = 1
+        let div = 0.5
         
-        let sideSpace = 280
-        let upSpace = -420
+        let sideSpace = 410
+        let upSpace   = -250
         
-        let nextSpace = 250
-        let downSpace = 320
+        let nextSpace = 600
+        let downSpace = 180
         
         let width = 176/div
         let height = 55/div
         
-        let b = SKSpriteNode(imageNamed: "Consoante_b_char")
-        b.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace)
-        b.size = CGSize(width: width, height: height)
-        b.zPosition = 1
-        addChild(b)
+        let zAllPosition = 5
         
-        let c = SKSpriteNode(imageNamed: "Consoante_c_char")
-        c.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace)
-        c.size = CGSize(width: width, height: height)
-        c.zPosition = 1
-        addChild(c)
+        let b = ButtonNode(defaultButtonImage: "Consoante_b_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_b_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(b)
         
-        let d = SKSpriteNode(imageNamed: "Consoante_d_char")
-        d.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace)
-        d.size = CGSize(width: width, height: height)
-        d.zPosition = 1
-        addChild(d)
+        let c = ButtonNode(defaultButtonImage: "Consoante_c_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_c_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(c)
         
-        let f = SKSpriteNode(imageNamed: "Consoante_f_char")
-        f.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace)
-        f.size = CGSize(width: width, height: height)
-        f.zPosition = 1
-        addChild(f)
+        let d = ButtonNode(defaultButtonImage: "Consoante_d_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_d_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(d)
         
-        let g = SKSpriteNode(imageNamed: "Consoante_g_char")
-        g.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace)
-        g.size = CGSize(width: width, height: height)
-        g.zPosition = 1
-        addChild(g)
+        // ---------------------------------------------
         
-        let h = SKSpriteNode(imageNamed: "Consoante_h_char")
-        h.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace)
-        h.size = CGSize(width: width, height: height)
-        h.zPosition = 1
-        addChild(h)
+        let f = ButtonNode(defaultButtonImage: "Consoante_f_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_f_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(f)
         
-        let j = SKSpriteNode(imageNamed: "Consoante_j_char")
-        j.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(0*downSpace))
-        j.size = CGSize(width: width, height: height)
-        j.zPosition = 1
-        addChild(j)
+        let g = ButtonNode(defaultButtonImage: "Consoante_g_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_g_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(g)
+        
+        let h = ButtonNode(defaultButtonImage: "Consoante_h_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_h_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(h)
+        
+        let j = ButtonNode(defaultButtonImage: "Consoante_j_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_j_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(j)
+        
+        let k = ButtonNode(defaultButtonImage: "Consoante_k_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_k_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(k)
+        
+        let l = ButtonNode(defaultButtonImage: "Consoante_l_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_l_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(l)
         
         // -----------------------------------------------------------
         
-        let k = SKSpriteNode(imageNamed: "Consoante_k_char")
-        k.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(1*downSpace))
-        k.size = CGSize(width: width, height: height)
-        k.zPosition = 1
-        addChild(k)
+        let m = ButtonNode(defaultButtonImage: "Consoante_m_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_m_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(m)
         
-        let l = SKSpriteNode(imageNamed: "Consoante_l_char")
-        l.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(1*downSpace))
-        l.size = CGSize(width: width, height: height)
-        l.zPosition = 1
-        addChild(l)
+        let n = ButtonNode(defaultButtonImage: "Consoante_n_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_n_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(n)
         
-        let m = SKSpriteNode(imageNamed: "Consoante_m_char")
-        m.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(1*downSpace))
-        m.size = CGSize(width: width, height: height)
-        m.zPosition = 1
-        addChild(m)
-        
-        let n = SKSpriteNode(imageNamed: "Consoante_n_char")
-        n.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(1*downSpace))
-        n.size = CGSize(width: width, height: height)
-        n.zPosition = 1
-        addChild(n)
-        
-        let p = SKSpriteNode(imageNamed: "Consoante_p_char")
-        p.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(1*downSpace))
-        p.size = CGSize(width: width, height: height)
-        p.zPosition = 1
-        addChild(p)
-        
-        let q = SKSpriteNode(imageNamed: "Consoante_q_char")
-        q.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(1*downSpace))
-        q.size = CGSize(width: width, height: height)
-        q.zPosition = 1
-        addChild(q)
-        
-        let r = SKSpriteNode(imageNamed: "Consoante_r_char")
-        r.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(1*downSpace))
-        r.size = CGSize(width: width, height: height)
-        r.zPosition = 1
-        addChild(r)
+        let p = ButtonNode(defaultButtonImage: "Consoante_p_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_p_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(p)
         
         // -----------------------------------------------------------
         
-        let s = SKSpriteNode(imageNamed: "Consoante_s_char")
-        s.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(2*downSpace))
-        s.size = CGSize(width: width, height: height)
-        s.zPosition = 1
-        addChild(s)
+        let q = ButtonNode(defaultButtonImage: "Consoante_q_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(4*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_q_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(q)
         
-        let t = SKSpriteNode(imageNamed: "Consoante_t_char")
-        t.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(2*downSpace))
-        t.size = CGSize(width: width, height: height)
-        t.zPosition = 1
-        addChild(t)
+        let r = ButtonNode(defaultButtonImage: "Consoante_r_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(4*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_r_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(r)
         
-        let v = SKSpriteNode(imageNamed: "Consoante_v_char")
-        v.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(2*downSpace))
-        v.size = CGSize(width: width, height: height)
-        v.zPosition = 1
-        addChild(v)
+        let s = ButtonNode(defaultButtonImage: "Consoante_s_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(4*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_s_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(s)
         
-        let w = SKSpriteNode(imageNamed: "Consoante_w_char")
-        w.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(2*downSpace))
-        w.size = CGSize(width: width, height: height)
-        w.zPosition = 1
-        addChild(w)
+        // -----------------------------------------------------------
         
-        let x = SKSpriteNode(imageNamed: "Consoante_x_char")
-        x.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(2*downSpace))
-        x.size = CGSize(width: width, height: height)
-        x.zPosition = 1
-        addChild(x)
+        let t = ButtonNode(defaultButtonImage: "Consoante_t_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(5*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_t_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(t)
         
-        let y = SKSpriteNode(imageNamed: "Consoante_y_char")
-        y.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(2*downSpace))
-        y.size = CGSize(width: width, height: height)
-        y.zPosition = 1
-        addChild(y)
+        let v = ButtonNode(defaultButtonImage: "Consoante_v_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(5*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_v_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(v)
         
-        let z = SKSpriteNode(imageNamed: "Consoante_z_char")
-        z.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(2*downSpace))
-        z.size = CGSize(width: width, height: height)
-        z.zPosition = 1
-        addChild(z)
+        let w = ButtonNode(defaultButtonImage: "Consoante_w_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(5*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_w_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(w)
+        
+        let x = ButtonNode(defaultButtonImage: "Consoante_x_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(6*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_x_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(x)
+        
+        let y = ButtonNode(defaultButtonImage: "Consoante_y_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(6*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_y_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(y)
+        
+        let z = ButtonNode(defaultButtonImage: "Consoante_z_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(6*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Consoante_z_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(z)
         
     }
 }

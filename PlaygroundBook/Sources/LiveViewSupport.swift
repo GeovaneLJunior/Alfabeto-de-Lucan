@@ -31,7 +31,7 @@ public func returnSprite () -> SKView {
     let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
     if let scene = FIrstScene(fileNamed: "scene") {
         // Set the scale mode to scale to fit the window
-        scene.scaleMode = .aspectFill
+        scene.scaleMode = .aspectFit
         
         // Present the scene
         sceneView.presentScene(scene)

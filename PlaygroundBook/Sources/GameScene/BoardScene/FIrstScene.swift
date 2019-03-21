@@ -19,95 +19,88 @@ class FIrstScene: SKScene {
     
     func creatBoard () {
         
-        let div = 2
+        let div = 1
         
-        let sideSpace = 280
-        let upSpace = -300
+        let sideSpace = 480
+        let upSpace = 130
+
+        let nextSpace = 490
+        let downSpace = 200
+
+        let width = 480/div
+        let height = 160/div
+
         
-        let nextSpace = 250
-        let downSpace = 320
-        
-        let width = 414/div
-        let height = 595/div
-        
-        _ = ButtonNode(defaultButtonImage: "Tabuleiro_A_char",
-                                positionX: CGFloat(sideSpace+(0*nextSpace)),
-                                positionY: CGFloat(upSpace-(0*downSpace)),
-                                sizeWidth: CGFloat(width),
-                                sizeheight: CGFloat(height),
-                                activeButtonImage: "Tabuleiro_A_simbol",
-                                label: "",
-                                fontSize: 10.0,
-                                fontNamed: " ") {
+        let buttomBoard = ButtonNodeMenu.init(
+            defaultButtonImage: "ButtomBOARD",
+            positionX   : CGFloat(sideSpace+(0*nextSpace)),
+            positionY   : CGFloat(upSpace+(0*downSpace)),
+            sizeWidth   : CGFloat(width),
+            sizeheight  : CGFloat(height),
+            zPosition   : 2,
+            ancorPonitX : 0.5,
+            ancorPonitY : 0,
+            activeButtonImage: "ButtomSelectBOARD",
+            label: " ",
+            fontSize: 0,
+            fontNamed: " ") {
+                
+                
+                
         }
+        self.addChild(buttomBoard)
         
-        
-        _ = ButtonNode(defaultButtonImage: "Tabuleiro_B_char",
-                                positionX: CGFloat(sideSpace+(1*nextSpace)),
-                                positionY: CGFloat(upSpace-(0*downSpace)),
-                                sizeWidth: CGFloat(width),
-                                sizeheight: CGFloat(height),
-                                activeButtonImage: "Tabuleiro_B_simbol",
-                                label: "",
-                                fontSize: 10.0,
-                                fontNamed: " ") {
+        let buttomConwonant = ButtonNodeMenu.init(
+            defaultButtonImage: "ButtomCONSONANTS",
+            positionX   : CGFloat(sideSpace+(1*nextSpace)),
+            positionY   : CGFloat(upSpace+(0*downSpace)),
+            sizeWidth   : CGFloat(width),
+            sizeheight  : CGFloat(height),
+            zPosition   : 2,
+            ancorPonitX : 0.5,
+            ancorPonitY : 0,
+            activeButtonImage: "ButtomSelectCONSONANTS",
+            label: " ",
+            fontSize: 0,
+            fontNamed: " ") {
+                
         }
+        self.addChild(buttomConwonant)
         
-        _ = ButtonNode(defaultButtonImage: "Tabuleiro_C_char",
-                                positionX: CGFloat(sideSpace+(2*nextSpace)),
-                                positionY: CGFloat(upSpace-(0*downSpace)),
-                                sizeWidth: CGFloat(width),
-                                sizeheight: CGFloat(height),
-                                activeButtonImage: "Tabuleiro_C_simbol",
-                                label: "",
-                                fontSize: 10.0,
-                                fontNamed: " ") {
+        let buttomVowel = ButtonNodeMenu.init(
+            defaultButtonImage: "ButtomVOWELS",
+            positionX   : CGFloat(sideSpace+(2*nextSpace)),
+            positionY   : CGFloat(upSpace+(0*downSpace)),
+            sizeWidth   : CGFloat(width),
+            sizeheight  : CGFloat(height),
+            zPosition   : 2,
+            ancorPonitX : 0.5,
+            ancorPonitY : 0,
+            activeButtonImage: "ButtomSelectVOWELS",
+            label: " ",
+            fontSize: 0,
+            fontNamed: " ") {
+                
         }
+        self.addChild(buttomVowel)
         
-        _ = ButtonNode(defaultButtonImage: "Tabuleiro_D_char",
-                                positionX: CGFloat(sideSpace+(3*nextSpace)),
-                                positionY: CGFloat(upSpace-(0*downSpace)),
-                                sizeWidth: CGFloat(width),
-                                sizeheight: CGFloat(height),
-                                activeButtonImage: "Tabuleiro_D_simbol",
-                                label: "",
-                                fontSize: 10.0,
-                                fontNamed: " ") {
+        let buttomRep = ButtonNodeMenu.init(
+            defaultButtonImage: "ButtomREP",
+            positionX   : CGFloat(sideSpace+(2*nextSpace+320)),
+            positionY   : CGFloat(upSpace+(0*downSpace)),
+            sizeWidth   : 138,
+            sizeheight  : 171,
+            zPosition   : 2,
+            ancorPonitX : 0.5,
+            ancorPonitY : 0,
+            activeButtonImage: "ButtomSelectREP",
+            label: " ",
+            fontSize: 0,
+            fontNamed: " ") {
+                
         }
+        self.addChild(buttomRep)
         
-        _ = ButtonNode(defaultButtonImage: "Tabuleiro_E_char",
-                                positionX: CGFloat(sideSpace+(4*nextSpace)),
-                                positionY: CGFloat(upSpace-(0*downSpace)),
-                                sizeWidth: CGFloat(width),
-                                sizeheight: CGFloat(height),
-                                activeButtonImage: "Tabuleiro_E_simbol",
-                                label: "",
-                                fontSize: 10.0,
-                                fontNamed: " ") {
-        }
-        
-        _ = ButtonNode(defaultButtonImage: "Tabuleiro_F_char",
-                                positionX: CGFloat(sideSpace+(5*nextSpace)),
-                                positionY: CGFloat(upSpace-(0*downSpace)),
-                                sizeWidth: CGFloat(width),
-                                sizeheight: CGFloat(height),
-                                activeButtonImage: "Tabuleiro_F_simbol",
-                                label: "",
-                                fontSize: 10.0,
-                                fontNamed: " ") {
-        }
-        
-        _ = ButtonNode(defaultButtonImage: "Tabuleiro_G_char",
-                                positionX: CGFloat(sideSpace+(6*nextSpace)),
-                                positionY: CGFloat(upSpace-(0*downSpace)),
-                                sizeWidth: CGFloat(width),
-                                sizeheight: CGFloat(height),
-                                activeButtonImage: "Tabuleiro_G_simbol",
-                                label: "",
-                                fontSize: 10.0,
-                                fontNamed: " ") {
-        }
-        
-        //--------------------------------------------------------------
     }
+    
 }

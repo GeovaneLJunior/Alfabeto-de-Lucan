@@ -31,194 +31,407 @@ class VogaisScene: SKScene {
         let width = 135/div
         let height = 220/div
         
-        let a = SKSpriteNode(imageNamed: "Vogal_a_char")
-        a.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(0*downSpace))
-        a.size = CGSize(width: width, height: height)
-        a.zPosition = 1
-        addChild(a)
+        let zAllPosition = 4
         
-        let aa = SKSpriteNode(imageNamed: "Vogal_aa_char")
-        aa.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(0*downSpace))
-        aa.size = CGSize(width: width, height: height)
-        aa.zPosition = 1
-        addChild(aa)
+        let a = ButtonNode(defaultButtonImage: "Vogal_a_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Vogal_a_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(a)
         
-        let ae = SKSpriteNode(imageNamed: "Vogal_ae_char")
-        ae.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(0*downSpace))
-        ae.size = CGSize(width: width, height: height)
-        ae.zPosition = 1
-        addChild(ae)
+        let aa = ButtonNode(defaultButtonImage: "Vogal_aa_char",
+                            positionX: CGFloat(sideSpace+(1*nextSpace)),
+                            positionY: CGFloat(upSpace-(0*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_aa_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(aa)
         
-        let ai = SKSpriteNode(imageNamed: "Vogal_ai_char")
-        ai.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(0*downSpace))
-        ai.size = CGSize(width: width, height: height)
-        ai.zPosition = 1
-        addChild(ai)
+        let ae = ButtonNode(defaultButtonImage: "Vogal_ae_char",
+                            positionX: CGFloat(sideSpace+(2*nextSpace)),
+                            positionY: CGFloat(upSpace-(0*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ae_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ae)
         
-        let ao = SKSpriteNode(imageNamed: "Vogal_ao_char")
-        ao.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(0*downSpace))
-        ao.size = CGSize(width: width, height: height)
-        ao.zPosition = 1
-        addChild(ao)
+        let ai = ButtonNode(defaultButtonImage: "Vogal_ai_char",
+                            positionX: CGFloat(sideSpace+(3*nextSpace)),
+                            positionY: CGFloat(upSpace-(0*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ai_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ai)
         
-        let au = SKSpriteNode(imageNamed: "Vogal_au_char")
-        au.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(0*downSpace))
-        au.size = CGSize(width: width, height: height)
-        au.zPosition = 1
-        addChild(au)
+        let ao = ButtonNode(defaultButtonImage: "Vogal_ao_char",
+                            positionX: CGFloat(sideSpace+(4*nextSpace)),
+                            positionY: CGFloat(upSpace-(0*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ao_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ao)
         
-        // -----------------------------------------------
+        let au = ButtonNode(defaultButtonImage: "Vogal_au_char",
+                            positionX: CGFloat(sideSpace+(5*nextSpace)),
+                            positionY: CGFloat(upSpace-(0*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_au_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(au)
         
-        let e = SKSpriteNode(imageNamed: "Vogal_e_char")
-        e.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(1*downSpace))
-        e.size = CGSize(width: width, height: height)
-        e.zPosition = 1
-        addChild(e)
+        // -----------------------------------------------------------
         
-        let ea = SKSpriteNode(imageNamed: "Vogal_ea_char")
-        ea.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(1*downSpace))
-        ea.size = CGSize(width: width, height: height)
-        ea.zPosition = 1
-        addChild(ea)
+        let e = ButtonNode(defaultButtonImage: "Vogal_e_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Vogal_e_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(e)
         
-        let ee = SKSpriteNode(imageNamed: "Vogal_ee_char")
-        ee.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(1*downSpace))
-        ee.size = CGSize(width: width, height: height)
-        ee.zPosition = 1
-        addChild(ee)
+        let ea = ButtonNode(defaultButtonImage: "Vogal_ea_char",
+                            positionX: CGFloat(sideSpace+(1*nextSpace)),
+                            positionY: CGFloat(upSpace-(1*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ea_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ea)
         
-        let ei = SKSpriteNode(imageNamed: "Vogal_ei_char")
-        ei.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(1*downSpace))
-        ei.size = CGSize(width: width, height: height)
-        ei.zPosition = 1
-        addChild(ei)
+        let ee = ButtonNode(defaultButtonImage: "Vogal_ee_char",
+                            positionX: CGFloat(sideSpace+(2*nextSpace)),
+                            positionY: CGFloat(upSpace-(1*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ee_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ee)
         
-        let eo = SKSpriteNode(imageNamed: "Vogal_eo_char")
-        eo.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(1*downSpace))
-        eo.size = CGSize(width: width, height: height)
-        eo.zPosition = 1
-        addChild(eo)
+        let ei = ButtonNode(defaultButtonImage: "Vogal_ei_char",
+                            positionX: CGFloat(sideSpace+(3*nextSpace)),
+                            positionY: CGFloat(upSpace-(1*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ei_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ei)
         
-        let eu = SKSpriteNode(imageNamed: "Vogal_eu_char")
-        eu.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(1*downSpace))
-        eu.size = CGSize(width: width, height: height)
-        eu.zPosition = 1
-        addChild(eu)
+        let eo = ButtonNode(defaultButtonImage: "Vogal_eo_char",
+                            positionX: CGFloat(sideSpace+(4*nextSpace)),
+                            positionY: CGFloat(upSpace-(1*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_eo_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(eo)
         
-        // -----------------------------------------------
+        let eu = ButtonNode(defaultButtonImage: "Vogal_eu_char",
+                            positionX: CGFloat(sideSpace+(5*nextSpace)),
+                            positionY: CGFloat(upSpace-(1*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_eu_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(eu)
         
-        let i = SKSpriteNode(imageNamed: "Vogal_i_char")
-        i.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(2*downSpace))
-        i.size = CGSize(width: width, height: height)
-        i.zPosition = 1
-        addChild(i)
+        // -----------------------------------------------------------
         
-        let ia = SKSpriteNode(imageNamed: "Vogal_ia_char")
-        ia.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(2*downSpace))
-        ia.size = CGSize(width: width, height: height)
-        ia.zPosition = 1
-        addChild(ia)
+        let i = ButtonNode(defaultButtonImage: "Vogal_i_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Vogal_i_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(i)
         
-        let ie = SKSpriteNode(imageNamed: "Vogal_ie_char")
-        ie.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(2*downSpace))
-        ie.size = CGSize(width: width, height: height)
-        ie.zPosition = 1
-        addChild(ie)
+        let ia = ButtonNode(defaultButtonImage: "Vogal_ia_char",
+                            positionX: CGFloat(sideSpace+(1*nextSpace)),
+                            positionY: CGFloat(upSpace-(2*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ia_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ia)
         
-        let ii = SKSpriteNode(imageNamed: "Vogal_ii_char")
-        ii.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(2*downSpace))
-        ii.size = CGSize(width: width, height: height)
-        ii.zPosition = 1
-        addChild(ii)
+        let ie = ButtonNode(defaultButtonImage: "Vogal_ie_char",
+                            positionX: CGFloat(sideSpace+(2*nextSpace)),
+                            positionY: CGFloat(upSpace-(2*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ie_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ie)
         
-        let io = SKSpriteNode(imageNamed: "Vogal_io_char")
-        io.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(2*downSpace))
-        io.size = CGSize(width: width, height: height)
-        io.zPosition = 1
-        addChild(io)
+        let ii = ButtonNode(defaultButtonImage: "Vogal_ii_char",
+                            positionX: CGFloat(sideSpace+(3*nextSpace)),
+                            positionY: CGFloat(upSpace-(2*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ii_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ii)
         
-        let iu = SKSpriteNode(imageNamed: "Vogal_iu_char")
-        iu.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(2*downSpace))
-        iu.size = CGSize(width: width, height: height)
-        iu.zPosition = 1
-        addChild(iu)
+        let io = ButtonNode(defaultButtonImage: "Vogal_io_char",
+                            positionX: CGFloat(sideSpace+(4*nextSpace)),
+                            positionY: CGFloat(upSpace-(2*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_io_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(io)
         
-        // -----------------------------------------------
+        let iu = ButtonNode(defaultButtonImage: "Vogal_iu_char",
+                            positionX: CGFloat(sideSpace+(5*nextSpace)),
+                            positionY: CGFloat(upSpace-(2*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_iu_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(iu)
         
-        let o = SKSpriteNode(imageNamed: "Vogal_o_char")
-        o.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(3*downSpace))
-        o.size = CGSize(width: width, height: height)
-        o.zPosition = 1
-        addChild(o)
+        // -----------------------------------------------------------
         
-        let oa = SKSpriteNode(imageNamed: "Vogal_oa_char")
-        oa.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(3*downSpace))
-        oa.size = CGSize(width: width, height: height)
-        oa.zPosition = 1
-        addChild(oa)
+        let o = ButtonNode(defaultButtonImage: "Vogal_o_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Vogal_o_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(o)
         
-        let oe = SKSpriteNode(imageNamed: "Vogal_oe_char")
-        oe.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(3*downSpace))
-        oe.size = CGSize(width: width, height: height)
-        oe.zPosition = 1
-        addChild(oe)
+        let oa = ButtonNode(defaultButtonImage: "Vogal_oa_char",
+                            positionX: CGFloat(sideSpace+(1*nextSpace)),
+                            positionY: CGFloat(upSpace-(3*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_oa_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(oa)
         
-        let oi = SKSpriteNode(imageNamed: "Vogal_oi_char")
-        oi.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(3*downSpace))
-        oi.size = CGSize(width: width, height: height)
-        oi.zPosition = 1
-        addChild(oi)
+        let oe = ButtonNode(defaultButtonImage: "Vogal_oe_char",
+                            positionX: CGFloat(sideSpace+(2*nextSpace)),
+                            positionY: CGFloat(upSpace-(3*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_oe_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(oe)
         
-        let oo = SKSpriteNode(imageNamed: "Vogal_oo_char")
-        oo.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(3*downSpace))
-        oo.size = CGSize(width: width, height: height)
-        oo.zPosition = 1
-        addChild(oo)
+        let oi = ButtonNode(defaultButtonImage: "Vogal_oi_char",
+                            positionX: CGFloat(sideSpace+(3*nextSpace)),
+                            positionY: CGFloat(upSpace-(3*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_oi_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(oi)
         
-        let ou = SKSpriteNode(imageNamed: "Vogal_ou_char")
-        ou.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(3*downSpace))
-        ou.size = CGSize(width: width, height: height)
-        ou.zPosition = 1
-        addChild(ou)
+        let oo = ButtonNode(defaultButtonImage: "Vogal_oo_char",
+                            positionX: CGFloat(sideSpace+(4*nextSpace)),
+                            positionY: CGFloat(upSpace-(3*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_oo_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(oo)
         
-        // -----------------------------------------------
+        let ou = ButtonNode(defaultButtonImage: "Vogal_ou_char",
+                            positionX: CGFloat(sideSpace+(5*nextSpace)),
+                            positionY: CGFloat(upSpace-(3*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ou_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ou)
         
-        let u = SKSpriteNode(imageNamed: "Vogal_u_char")
-        u.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(4*downSpace))
-        u.size = CGSize(width: width, height: height)
-        u.zPosition = 1
-        addChild(u)
+        // -----------------------------------------------------------
         
-        let ua = SKSpriteNode(imageNamed: "Vogal_ua_char")
-        ua.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(4*downSpace))
-        ua.size = CGSize(width: width, height: height)
-        ua.zPosition = 1
-        addChild(ua)
+        let u = ButtonNode(defaultButtonImage: "Vogal_u_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(4*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Vogal_u_simbol",
+                           label: "",
+                           fontSize: 0,
+                           fontNamed: " ") {
+        }
+        self.addChild(u)
         
-        let ue = SKSpriteNode(imageNamed: "Vogal_ue_char")
-        ue.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(4*downSpace))
-        ue.size = CGSize(width: width, height: height)
-        ue.zPosition = 1
-        addChild(ue)
+        let ua = ButtonNode(defaultButtonImage: "Vogal_ua_char",
+                            positionX: CGFloat(sideSpace+(1*nextSpace)),
+                            positionY: CGFloat(upSpace-(4*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ua_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ua)
         
-        let ui = SKSpriteNode(imageNamed: "Vogal_ui_char")
-        ui.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(4*downSpace))
-        ui.size = CGSize(width: width, height: height)
-        ui.zPosition = 1
-        addChild(ui)
+        let ue = ButtonNode(defaultButtonImage: "Vogal_ue_char",
+                            positionX: CGFloat(sideSpace+(2*nextSpace)),
+                            positionY: CGFloat(upSpace-(4*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ue_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ue)
         
-        let uo = SKSpriteNode(imageNamed: "Vogal_uo_char")
-        uo.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(4*downSpace))
-        uo.size = CGSize(width: width, height: height)
-        uo.zPosition = 1
-        addChild(uo)
+        let ui = ButtonNode(defaultButtonImage: "Vogal_ui_char",
+                            positionX: CGFloat(sideSpace+(3*nextSpace)),
+                            positionY: CGFloat(upSpace-(4*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_ui_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(ui)
         
-        let uu = SKSpriteNode(imageNamed: "Vogal_uu_char")
-        uu.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(4*downSpace))
-        uu.size = CGSize(width: width, height: height)
-        uu.zPosition = 1
-        addChild(uu)
+        let uo = ButtonNode(defaultButtonImage: "Vogal_uo_char",
+                            positionX: CGFloat(sideSpace+(4*nextSpace)),
+                            positionY: CGFloat(upSpace-(4*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_uo_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(uo)
         
-        // -----------------------------------------------
+        let uu = ButtonNode(defaultButtonImage: "Vogal_uu_char",
+                            positionX: CGFloat(sideSpace+(5*nextSpace)),
+                            positionY: CGFloat(upSpace-(4*downSpace)),
+                            sizeWidth: CGFloat(width),
+                            sizeheight: CGFloat(height),
+                            zPosition: CGFloat(zAllPosition),
+                            activeButtonImage: "Vogal_uu_simbol",
+                            label: "",
+                            fontSize: 0,
+                            fontNamed: " ") {
+        }
+        self.addChild(uu)
+        
+        // -----------------------------------------------------------
+        
     }
 }
