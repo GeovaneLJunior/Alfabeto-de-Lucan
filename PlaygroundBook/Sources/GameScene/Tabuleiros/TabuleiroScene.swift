@@ -30,129 +30,388 @@ class TabuleiroScene: SKScene {
         
         let width = 414/div
         let height = 595/div
-
+        
+        let zAllPosition = 3
+        
+        let A = ButtonNode(defaultButtonImage: "Tabuleiro_A_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_A_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(A)
+        
+        
+        let B = ButtonNode(defaultButtonImage: "Tabuleiro_B_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_B_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(B)
+        
+        let C = ButtonNode(defaultButtonImage: "Tabuleiro_C_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_C_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(C)
+        
+        let D = ButtonNode(defaultButtonImage: "Tabuleiro_D_char",
+                           positionX: CGFloat(sideSpace+(3*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_D_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(D)
+        
+        let E = ButtonNode(defaultButtonImage: "Tabuleiro_E_char",
+                           positionX: CGFloat(sideSpace+(4*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_E_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(E)
+        
+        let F = ButtonNode(defaultButtonImage: "Tabuleiro_F_char",
+                           positionX: CGFloat(sideSpace+(5*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_F_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(F)
+        
+        let G = ButtonNode(defaultButtonImage: "Tabuleiro_G_char",
+                           positionX: CGFloat(sideSpace+(6*nextSpace)),
+                           positionY: CGFloat(upSpace-(0*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_G_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(G)
+        
+        //        //--------------------------------------------------------------
+        
+        let H = ButtonNode(defaultButtonImage: "Tabuleiro_H_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_H_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(H)
+        
+        
+        let I = ButtonNode(defaultButtonImage: "Tabuleiro_I_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_I_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(I)
+        
+        let J = ButtonNode(defaultButtonImage: "Tabuleiro_J_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_J_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(J)
+        
+        let K = ButtonNode(defaultButtonImage: "Tabuleiro_K_char",
+                           positionX: CGFloat(sideSpace+(3*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage:  "Tabuleiro_K_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(K)
+        
+        let L = ButtonNode(defaultButtonImage: "Tabuleiro_L_char",
+                           positionX: CGFloat(sideSpace+(4*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage:  "Tabuleiro_L_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(L)
+        
+        let M = ButtonNode(defaultButtonImage: "Tabuleiro_M_char",
+                           positionX: CGFloat(sideSpace+(5*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_M_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(M)
+        
+        let N = ButtonNode(defaultButtonImage: "Tabuleiro_N_char",
+                           positionX: CGFloat(sideSpace+(6*nextSpace)),
+                           positionY: CGFloat(upSpace-(1*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_N_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(N)
+        
+        //        //--------------------------------------------------------------
+        
+        let O = ButtonNode(defaultButtonImage: "Tabuleiro_O_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_O_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(O)
+        
+        
+        let P = ButtonNode(defaultButtonImage: "Tabuleiro_P_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_P_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(P)
+        
+        let Q = ButtonNode(defaultButtonImage: "Tabuleiro_Q_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_Q_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(Q)
+        
+        let R = ButtonNode(defaultButtonImage: "Tabuleiro_R_char",
+                           positionX: CGFloat(sideSpace+(3*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage:  "Tabuleiro_R_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(R)
+        
+        let S = ButtonNode(defaultButtonImage: "Tabuleiro_S_char",
+                           positionX: CGFloat(sideSpace+(4*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage:  "Tabuleiro_S_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(S)
+        
+        let T = ButtonNode(defaultButtonImage: "Tabuleiro_T_char",
+                           positionX: CGFloat(sideSpace+(5*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_T_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(T)
+        
+        let U = ButtonNode(defaultButtonImage: "Tabuleiro_U_char",
+                           positionX: CGFloat(sideSpace+(6*nextSpace)),
+                           positionY: CGFloat(upSpace-(2*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_U_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(U)
+        
         //--------------------------------------------------------------
         
-        let H = SKSpriteNode(imageNamed: "Tabuleiro_H_char")
-        H.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(1*downSpace))
-        H.size = CGSize(width: width, height: height)
-        H.zPosition = 1
-        addChild(H)
+        let V = ButtonNode(defaultButtonImage: "Tabuleiro_V_char",
+                           positionX: CGFloat(sideSpace+(0*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_V_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(V)
         
-        let I = SKSpriteNode(imageNamed: "Tabuleiro_I_char")
-        I.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(1*downSpace))
-        I.size = CGSize(width: width, height: height)
-        I.zPosition = 1
-        addChild(I)
         
-        let J = SKSpriteNode(imageNamed: "Tabuleiro_J_char")
-        J.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(1*downSpace))
-        J.size = CGSize(width: width, height: height)
-        J.zPosition = 1
-        addChild(J)
+        let W = ButtonNode(defaultButtonImage: "Tabuleiro_W_char",
+                           positionX: CGFloat(sideSpace+(1*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_W_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(W)
         
-        let K = SKSpriteNode(imageNamed: "Tabuleiro_K_char")
-        K.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(1*downSpace))
-        K.size = CGSize(width: width, height: height)
-        K.zPosition = 1
-        addChild(K)
+        let X = ButtonNode(defaultButtonImage: "Tabuleiro_X_char",
+                           positionX: CGFloat(sideSpace+(2*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage: "Tabuleiro_X_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(X)
         
-        let L = SKSpriteNode(imageNamed: "Tabuleiro_L_char")
-        L.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(1*downSpace))
-        L.size = CGSize(width: width, height: height)
-        L.zPosition = 1
-        addChild(L)
+        let Y = ButtonNode(defaultButtonImage: "Tabuleiro_Y_char",
+                           positionX: CGFloat(sideSpace+(3*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage:  "Tabuleiro_Y_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(Y)
         
-        let M = SKSpriteNode(imageNamed: "Tabuleiro_M_char")
-        M.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(1*downSpace))
-        M.size = CGSize(width: width, height: height)
-        M.zPosition = 1
-        addChild(M)
-        
-        let N = SKSpriteNode(imageNamed: "Tabuleiro_N_char")
-        N.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(1*downSpace))
-        N.size = CGSize(width: width, height: height)
-        N.zPosition = 1
-        addChild(N)
-        
-        //--------------------------------------------------------------
-        
-        let O = SKSpriteNode(imageNamed: "Tabuleiro_O_char")
-        O.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(2*downSpace))
-        O.size = CGSize(width: width, height: height)
-        O.zPosition = 1
-        addChild(O)
-        
-        let P = SKSpriteNode(imageNamed: "Tabuleiro_P_char")
-        P.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(2*downSpace))
-        P.size = CGSize(width: width, height: height)
-        P.zPosition = 1
-        addChild(P)
-        
-        let Q = SKSpriteNode(imageNamed: "Tabuleiro_Q_char")
-        Q.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(2*downSpace))
-        Q.size = CGSize(width: width, height: height)
-        Q.zPosition = 1
-        addChild(Q)
-        
-        let R = SKSpriteNode(imageNamed: "Tabuleiro_R_char")
-        R.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(2*downSpace))
-        R.size = CGSize(width: width, height: height)
-        R.zPosition = 1
-        addChild(R)
-        
-        let S = SKSpriteNode(imageNamed: "Tabuleiro_S_char")
-        S.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(2*downSpace))
-        S.size = CGSize(width: width, height: height)
-        S.zPosition = 1
-        addChild(S)
-        
-        let T = SKSpriteNode(imageNamed: "Tabuleiro_T_char")
-        T.position = CGPoint(x: sideSpace+(5*nextSpace), y: upSpace-(2*downSpace))
-        T.size = CGSize(width: width, height: height)
-        T.zPosition = 1
-        addChild(T)
-        
-        let U = SKSpriteNode(imageNamed: "Tabuleiro_U_char")
-        U.position = CGPoint(x: sideSpace+(6*nextSpace), y: upSpace-(2*downSpace))
-        U.size = CGSize(width: width, height: height)
-        U.zPosition = 1
-        addChild(U)
-        
-        //--------------------------------------------------------------
-        
-        let V = SKSpriteNode(imageNamed: "Tabuleiro_V_char")
-        V.position = CGPoint(x: sideSpace+(0*nextSpace), y: upSpace-(3*downSpace))
-        V.size = CGSize(width: width, height: height)
-        V.zPosition = 1
-        addChild(V)
-        
-        let W = SKSpriteNode(imageNamed: "Tabuleiro_W_char")
-        W.position = CGPoint(x: sideSpace+(1*nextSpace), y: upSpace-(3*downSpace))
-        W.size = CGSize(width: width, height: height)
-        W.zPosition = 1
-        addChild(W)
-        
-        let X = SKSpriteNode(imageNamed: "Tabuleiro_X_char")
-        X.position = CGPoint(x: sideSpace+(2*nextSpace), y: upSpace-(3*downSpace))
-        X.size = CGSize(width: width, height: height)
-        X.zPosition = 1
-        addChild(X)
-        
-        let Y = SKSpriteNode(imageNamed: "Tabuleiro_Y_char")
-        Y.position = CGPoint(x: sideSpace+(3*nextSpace), y: upSpace-(3*downSpace))
-        Y.size = CGSize(width: width, height: height)
-        Y.zPosition = 1
-        addChild(Y)
-        
-        let Z = SKSpriteNode(imageNamed: "Tabuleiro_Z_char")
-        Z.position = CGPoint(x: sideSpace+(4*nextSpace), y: upSpace-(3*downSpace))
-        Z.size = CGSize(width: width, height: height)
-        Z.zPosition = 1
-        addChild(Z)
-        
-        //--------------------------------------------------------------
+        let Z = ButtonNode(defaultButtonImage: "Tabuleiro_Z_char",
+                           positionX: CGFloat(sideSpace+(4*nextSpace)),
+                           positionY: CGFloat(upSpace-(3*downSpace)),
+                           sizeWidth: CGFloat(width),
+                           sizeheight: CGFloat(height),
+                           zPosition: CGFloat(zAllPosition),
+                           activeButtonImage:  "Tabuleiro_Z_simbol",
+                           label: "",
+                           fontSize: 10.0,
+                           fontNamed: " ") {
+                            self.transition()
+        }
+        self.addChild(Z)
+    }
     
+    func transition() {
+        let scene = FIrstScene(fileNamed: "FIrstScene")
+        scene?.scaleMode = .aspectFill
+        self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
     }
 }
 

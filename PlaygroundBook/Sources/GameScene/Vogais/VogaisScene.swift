@@ -43,6 +43,7 @@ class VogaisScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(a)
         
@@ -56,6 +57,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(aa)
         
@@ -69,6 +71,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ae)
         
@@ -82,6 +85,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ai)
         
@@ -95,6 +99,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ao)
         
@@ -108,6 +113,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(au)
         
@@ -123,6 +129,7 @@ class VogaisScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(e)
         
@@ -136,6 +143,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ea)
         
@@ -149,6 +157,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ee)
         
@@ -162,6 +171,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ei)
         
@@ -175,6 +185,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(eo)
         
@@ -188,6 +199,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(eu)
         
@@ -203,6 +215,7 @@ class VogaisScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(i)
         
@@ -216,6 +229,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ia)
         
@@ -229,6 +243,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ie)
         
@@ -242,6 +257,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ii)
         
@@ -255,6 +271,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(io)
         
@@ -268,6 +285,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(iu)
         
@@ -283,6 +301,7 @@ class VogaisScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(o)
         
@@ -296,6 +315,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(oa)
         
@@ -309,6 +329,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(oe)
         
@@ -322,6 +343,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(oi)
         
@@ -335,6 +357,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(oo)
         
@@ -348,6 +371,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ou)
         
@@ -363,6 +387,7 @@ class VogaisScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(u)
         
@@ -376,6 +401,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ua)
         
@@ -389,6 +415,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ue)
         
@@ -402,6 +429,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(ui)
         
@@ -415,6 +443,7 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(uo)
         
@@ -428,10 +457,15 @@ class VogaisScene: SKScene {
                             label: "",
                             fontSize: 0,
                             fontNamed: " ") {
+                                self.transition()
         }
         self.addChild(uu)
         
-        // -----------------------------------------------------------
-        
+    }
+    
+    func transition() {
+        let scene = FIrstScene(fileNamed: "FIrstScene")
+        scene?.scaleMode = .aspectFill
+        self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
     }
 }

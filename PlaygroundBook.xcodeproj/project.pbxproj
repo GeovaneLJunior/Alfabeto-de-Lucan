@@ -186,7 +186,7 @@
 		CB95A99E22441342009401B7 /* ButtomREP.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A99622441342009401B7 /* ButtomREP.png */; };
 		CB95A99F22441342009401B7 /* ButtomSelectVOWELS.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A99722441342009401B7 /* ButtomSelectVOWELS.png */; };
 		CB95A9A122441618009401B7 /* SKButtomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95A9A022441618009401B7 /* SKButtomMenu.swift */; };
-		CBD06AE922417DBF0019185F /* scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBD06AE822417DBF0019185F /* scene.sks */; };
+		CBD06AE922417DBF0019185F /* FirstScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBD06AE822417DBF0019185F /* FirstScene.sks */; };
 		CBD06AEB22417E880019185F /* FIrstScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD06AEA22417E880019185F /* FIrstScene.swift */; };
 		CBF3B227224296DD0095372D /* ConsoantesScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B226224296DD0095372D /* ConsoantesScene.sks */; };
 		CBF3B229224296E80095372D /* ConsoantesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3B228224296E80095372D /* ConsoantesScene.swift */; };
@@ -454,7 +454,7 @@
 		CB95A99622441342009401B7 /* ButtomREP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomREP.png; sourceTree = "<group>"; };
 		CB95A99722441342009401B7 /* ButtomSelectVOWELS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomSelectVOWELS.png; sourceTree = "<group>"; };
 		CB95A9A022441618009401B7 /* SKButtomMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKButtomMenu.swift; sourceTree = "<group>"; };
-		CBD06AE822417DBF0019185F /* scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = scene.sks; sourceTree = "<group>"; };
+		CBD06AE822417DBF0019185F /* FirstScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirstScene.sks; sourceTree = "<group>"; };
 		CBD06AEA22417E880019185F /* FIrstScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIrstScene.swift; sourceTree = "<group>"; };
 		CBF3B226224296DD0095372D /* ConsoantesScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ConsoantesScene.sks; sourceTree = "<group>"; };
 		CBF3B228224296E80095372D /* ConsoantesScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoantesScene.swift; sourceTree = "<group>"; };
@@ -917,7 +917,7 @@
 		CBF3B225224296A40095372D /* BoardScene */ = {
 			isa = PBXGroup;
 			children = (
-				CBD06AE822417DBF0019185F /* scene.sks */,
+				CBD06AE822417DBF0019185F /* FirstScene.sks */,
 				CBD06AEA22417E880019185F /* FIrstScene.swift */,
 			);
 			path = BoardScene;
@@ -1087,7 +1087,7 @@
 				CB95A8F82243FDEA009401B7 /* Consoante_r_char.png in Resources */,
 				CB95A9082243FDEA009401B7 /* Tabuleiro_D_char.png in Resources */,
 				CBF3B22D224297140095372D /* TabuleiroScene.sks in Resources */,
-				CBD06AE922417DBF0019185F /* scene.sks in Resources */,
+				CBD06AE922417DBF0019185F /* FirstScene.sks in Resources */,
 				CB95A95F2243FDEA009401B7 /* Consoante_y_simbol.png in Resources */,
 				CB95A90A2243FDEA009401B7 /* Tabuleiro_Q_char.png in Resources */,
 				CB95A9442243FDEA009401B7 /* Tabuleiro_A_simbol.png in Resources */,

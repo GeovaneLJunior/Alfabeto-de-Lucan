@@ -49,6 +49,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(b)
         
@@ -62,6 +63,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(c)
         
@@ -75,6 +77,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(d)
         
@@ -90,6 +93,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(f)
         
@@ -103,6 +107,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(g)
         
@@ -116,6 +121,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(h)
         
@@ -129,6 +135,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(j)
         
@@ -142,6 +149,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(k)
         
@@ -155,6 +163,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(l)
         
@@ -170,6 +179,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(m)
         
@@ -183,6 +193,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(n)
         
@@ -196,6 +207,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(p)
         
@@ -211,6 +223,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(q)
         
@@ -224,6 +237,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(r)
         
@@ -237,6 +251,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(s)
         
@@ -252,6 +267,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(t)
         
@@ -265,6 +281,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(v)
         
@@ -278,6 +295,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(w)
         
@@ -291,6 +309,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(x)
         
@@ -304,6 +323,7 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(y)
         
@@ -317,10 +337,18 @@ class ConsoanteScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.transition()
         }
         self.addChild(z)
         
     }
+    
+    func transition() {
+        let scene = FIrstScene(fileNamed: "FIrstScene")
+        scene?.scaleMode = .aspectFill
+        self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
+    }
+    
 }
 
 

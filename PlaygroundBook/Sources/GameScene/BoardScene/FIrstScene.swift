@@ -23,13 +23,13 @@ class FIrstScene: SKScene {
         
         let sideSpace = 480
         let upSpace = 130
-
+        
         let nextSpace = 490
         let downSpace = 200
-
+        
         let width = 480/div
         let height = 160/div
-
+        
         
         let buttomBoard = ButtonNodeMenu.init(
             defaultButtonImage: "ButtomBOARD",
@@ -45,8 +45,7 @@ class FIrstScene: SKScene {
             fontSize: 0,
             fontNamed: " ") {
                 
-                
-                
+                self.transitionToBoard()
         }
         self.addChild(buttomBoard)
         
@@ -64,6 +63,7 @@ class FIrstScene: SKScene {
             fontSize: 0,
             fontNamed: " ") {
                 
+                self.transitionToConsonants()
         }
         self.addChild(buttomConwonant)
         
@@ -81,6 +81,7 @@ class FIrstScene: SKScene {
             fontSize: 0,
             fontNamed: " ") {
                 
+                self.transitionToVowel()
         }
         self.addChild(buttomVowel)
         
@@ -101,6 +102,24 @@ class FIrstScene: SKScene {
         }
         self.addChild(buttomRep)
         
+    }
+    
+    func transitionToBoard() {
+        let scene = TabuleiroScene(fileNamed: "TabuleiroScene")
+        scene?.scaleMode = .aspectFit
+        self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
+    }
+    
+    func transitionToConsonants() {
+        let scene = ConsoanteScene(fileNamed: "ConsoanteScene")
+        scene?.scaleMode = .aspectFit
+        self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
+    }
+    
+    func transitionToVowel() {
+        let scene = VogaisScene(fileNamed: "VogaisScene")
+        scene?.scaleMode = .aspectFit
+        self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
     }
     
 }
