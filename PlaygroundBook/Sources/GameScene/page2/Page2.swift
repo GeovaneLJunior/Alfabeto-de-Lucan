@@ -153,6 +153,7 @@ class Page2: SKScene {
         }
     }
     
+    //---- comentario
     
     func hiddenChar(){
         
