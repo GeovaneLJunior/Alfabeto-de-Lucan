@@ -19,6 +19,7 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
+		CB1F52952246922A007B0044 /* SKButtomBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1F52942246922A007B0044 /* SKButtomBoard.swift */; };
 		CB95A7012242EF3D009401B7 /* SKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95A7002242EDE9009401B7 /* SKButton.swift */; };
 		CB95A8EA2243FDEA009401B7 /* Consoante_z_char.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A8462243FDEA009401B7 /* Consoante_z_char.png */; };
 		CB95A8EB2243FDEA009401B7 /* Consoante_q_char.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A8472243FDEA009401B7 /* Consoante_q_char.png */; };
@@ -304,6 +305,7 @@
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		CB1F52942246922A007B0044 /* SKButtomBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKButtomBoard.swift; sourceTree = "<group>"; };
 		CB95A6FF2242EDE8009401B7 /* PlaygroundBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaygroundBook-Bridging-Header.h"; sourceTree = "<group>"; };
 		CB95A7002242EDE9009401B7 /* SKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKButton.swift; sourceTree = "<group>"; };
 		CB95A8462243FDEA009401B7 /* Consoante_z_char.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Consoante_z_char.png; sourceTree = "<group>"; };
@@ -642,6 +644,7 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				CB1F52942246922A007B0044 /* SKButtomBoard.swift */,
 				CB95A7002242EDE9009401B7 /* SKButton.swift */,
 				CB95A9A022441618009401B7 /* SKButtomMenu.swift */,
 				CBF3B2502242D2390095372D /* Model */,
@@ -1353,6 +1356,7 @@
 				CBF3B2522242D2480095372D /* classCard.swift in Sources */,
 				CBF3B229224296E80095372D /* ConsoantesScene.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				CB1F52952246922A007B0044 /* SKButtomBoard.swift in Sources */,
 				CB95A9E32245459C009401B7 /* Page2.swift in Sources */,
 				CBF3B2542242D48F0095372D /* enums.swift in Sources */,
 				CB95A9DF2245457D009401B7 /* Page1.swift in Sources */,

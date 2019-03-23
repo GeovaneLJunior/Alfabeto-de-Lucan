@@ -10,7 +10,9 @@ import SpriteKit
 import GameKit
 
 class TabuleiroScene: SKScene {
-
+    
+    var buttonBoard : ButtonBoard?
+    
     
     override func didMove(to view: SKView) {
         
@@ -19,7 +21,7 @@ class TabuleiroScene: SKScene {
         }
         creatBoard()
     }
-   
+    
     func creatBoard () {
         
         let div = 2
@@ -45,6 +47,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_A_char", activeButtonImage: "Tabuleiro_A_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(A)
@@ -60,6 +63,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_B_char", activeButtonImage: "Tabuleiro_B_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(B)
@@ -74,6 +78,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_C_char", activeButtonImage: "Tabuleiro_C_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(C)
@@ -88,6 +93,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_D_char", activeButtonImage: "Tabuleiro_D_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(D)
@@ -102,6 +108,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_E_char", activeButtonImage: "Tabuleiro_E_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(E)
@@ -116,6 +123,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_F_char", activeButtonImage: "Tabuleiro_F_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(F)
@@ -130,6 +138,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_G_char", activeButtonImage: "Tabuleiro_G_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(G)
@@ -146,6 +155,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_H_char", activeButtonImage: "Tabuleiro_H_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(H)
@@ -161,6 +171,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_I_char", activeButtonImage: "Tabuleiro_I_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(I)
@@ -175,6 +186,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_J_char", activeButtonImage: "Tabuleiro_J_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(J)
@@ -189,6 +201,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_K_char", activeButtonImage: "Tabuleiro_K_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(K)
@@ -203,6 +216,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_L_char", activeButtonImage: "Tabuleiro_L_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(L)
@@ -217,6 +231,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_M_char", activeButtonImage: "Tabuleiro_M_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(M)
@@ -231,6 +246,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_N_char", activeButtonImage: "Tabuleiro_N_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(N)
@@ -247,6 +263,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_O_char", activeButtonImage: "Tabuleiro_O_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(O)
@@ -262,6 +279,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_P_char", activeButtonImage: "Tabuleiro_P_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(P)
@@ -276,6 +294,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_Q_char", activeButtonImage: "Tabuleiro_Q_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(Q)
@@ -290,6 +309,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_R_char", activeButtonImage: "Tabuleiro_R_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(R)
@@ -304,6 +324,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_S_char", activeButtonImage: "Tabuleiro_S_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(S)
@@ -318,6 +339,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_T_char", activeButtonImage: "Tabuleiro_T_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(T)
@@ -332,6 +354,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_U_char", activeButtonImage: "Tabuleiro_U_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(U)
@@ -348,6 +371,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_V_char", activeButtonImage: "Tabuleiro_V_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(V)
@@ -363,6 +387,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_W_char", activeButtonImage: "Tabuleiro_W_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(W)
@@ -377,6 +402,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_X_char", activeButtonImage: "Tabuleiro_X_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(X)
@@ -391,6 +417,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_Y_char", activeButtonImage: "Tabuleiro_Y_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(Y)
@@ -405,6 +432,7 @@ class TabuleiroScene: SKScene {
                            label: "",
                            fontSize: 10.0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Tabuleiro_Z_char", activeButtonImage: "Tabuleiro_Z_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(Z)
@@ -413,6 +441,9 @@ class TabuleiroScene: SKScene {
     func transition() {
         let scene = FIrstScene(fileNamed: "FIrstScene")
         scene?.scaleMode = .aspectFit
+        buttonBoard!.size.width *= 2
+        buttonBoard!.size.height *= 2
+        scene?.addChild(buttonBoard!)
         self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
     }
 }

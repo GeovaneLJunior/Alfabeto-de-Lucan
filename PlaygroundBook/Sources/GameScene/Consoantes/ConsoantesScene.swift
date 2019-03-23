@@ -12,6 +12,7 @@ import GameKit
 class ConsoantesScene: SKScene {
     
     let general = FIrstScene()
+    var buttonBoard : ButtonBoard?
     
     override func didMove(to view: SKView) {
         if let labe = self.childNode(withName: "label") as? SKLabelNode{
@@ -22,7 +23,7 @@ class ConsoantesScene: SKScene {
     
     
     
-   
+    
     
     func creatBoard () {
         
@@ -49,6 +50,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(b)
@@ -63,6 +65,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(c)
@@ -77,6 +80,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(d)
@@ -93,6 +97,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(f)
@@ -107,6 +112,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(g)
@@ -121,6 +127,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(h)
@@ -135,6 +142,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(j)
@@ -149,6 +157,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(k)
@@ -163,6 +172,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(l)
@@ -179,6 +189,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(m)
@@ -193,6 +204,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(n)
@@ -207,6 +219,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(p)
@@ -223,6 +236,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(q)
@@ -237,6 +251,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(r)
@@ -251,6 +266,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(s)
@@ -267,6 +283,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(t)
@@ -281,6 +298,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(v)
@@ -295,6 +313,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(w)
@@ -309,6 +328,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(x)
@@ -323,6 +343,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(y)
@@ -337,6 +358,7 @@ class ConsoantesScene: SKScene {
                            label: "",
                            fontSize: 0,
                            fontNamed: " ") {
+                            self.buttonBoard = ButtonBoard(defaultButtonImage: "Consoante_b_char", activeButtonImage: "Consoante_b_simbol", sizeWidth: CGFloat(width), sizeheight: CGFloat(height), zPosition : CGFloat(zAllPosition))
                             self.transition()
         }
         self.addChild(z)
@@ -346,6 +368,7 @@ class ConsoantesScene: SKScene {
     func transition() {
         let scene = FIrstScene(fileNamed: "FIrstScene")
         scene?.scaleMode = .aspectFit
+        scene?.addChild(buttonBoard!)
         self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
     }
     
