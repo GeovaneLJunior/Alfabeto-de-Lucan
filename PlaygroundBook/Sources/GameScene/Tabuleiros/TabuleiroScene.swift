@@ -412,7 +412,7 @@ class TabuleiroScene: SKScene {
     
     func transition() {
         let scene = FIrstScene(fileNamed: "FIrstScene")
-        scene?.scaleMode = .aspectFill
+        scene?.scaleMode = .aspectFit
         self.view?.presentScene(scene!, transition: SKTransition.fade(withDuration: 3.0))
     }
 }

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
 		5EA2E3C02056F35A00416A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */; };
@@ -186,6 +185,25 @@
 		CB95A99E22441342009401B7 /* ButtomREP.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A99622441342009401B7 /* ButtomREP.png */; };
 		CB95A99F22441342009401B7 /* ButtomSelectVOWELS.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A99722441342009401B7 /* ButtomSelectVOWELS.png */; };
 		CB95A9A122441618009401B7 /* SKButtomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95A9A022441618009401B7 /* SKButtomMenu.swift */; };
+		CB95A9D9224544BC009401B7 /* Page0.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9D8224544BC009401B7 /* Page0.sks */; };
+		CB95A9DB224544F1009401B7 /* Page0.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95A9DA224544F1009401B7 /* Page0.swift */; };
+		CB95A9DF2245457D009401B7 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95A9DE2245457D009401B7 /* Page1.swift */; };
+		CB95A9E12245458B009401B7 /* Page1.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9E02245458B009401B7 /* Page1.sks */; };
+		CB95A9E32245459C009401B7 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95A9E22245459C009401B7 /* Page2.swift */; };
+		CB95A9E5224545AB009401B7 /* Page2.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9E4224545AB009401B7 /* Page2.sks */; };
+		CB95A9E8224560DC009401B7 /* DisableBlackLightButtom.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9E6224560DB009401B7 /* DisableBlackLightButtom.png */; };
+		CB95A9E9224560DC009401B7 /* EnableLightButtom.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9E7224560DC009401B7 /* EnableLightButtom.png */; };
+		CB95A9F422458552009401B7 /* ButtomT.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9EA22458551009401B7 /* ButtomT.png */; };
+		CB95A9F522458552009401B7 /* ButtomHR.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9EB22458551009401B7 /* ButtomHR.png */; };
+		CB95A9F622458552009401B7 /* ButtomOUPress.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9EC22458551009401B7 /* ButtomOUPress.png */; };
+		CB95A9F722458552009401B7 /* ButtomOU.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9ED22458551009401B7 /* ButtomOU.png */; };
+		CB95A9F822458552009401B7 /* ButtomHRPress.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9EE22458551009401B7 /* ButtomHRPress.png */; };
+		CB95A9F922458552009401B7 /* ButtomGH.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9EF22458551009401B7 /* ButtomGH.png */; };
+		CB95A9FA22458552009401B7 /* luzLigarPress.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9F022458551009401B7 /* luzLigarPress.png */; };
+		CB95A9FB22458552009401B7 /* ButtomGHPress.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9F122458552009401B7 /* ButtomGHPress.png */; };
+		CB95A9FC22458552009401B7 /* ButtomTPress.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9F222458552009401B7 /* ButtomTPress.png */; };
+		CB95A9FD22458552009401B7 /* luzLigar.png in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9F322458552009401B7 /* luzLigar.png */; };
+		CB95A9FF224588C9009401B7 /* Ailerons-Typeface.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB95A9FE224588C9009401B7 /* Ailerons-Typeface.otf */; };
 		CBD06AE922417DBF0019185F /* FIrstScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBD06AE822417DBF0019185F /* FIrstScene.sks */; };
 		CBD06AEB22417E880019185F /* FIrstScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD06AEA22417E880019185F /* FIrstScene.swift */; };
 		CBF3B227224296DD0095372D /* ConsoantesScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CBF3B226224296DD0095372D /* ConsoantesScene.sks */; };
@@ -266,9 +284,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E086DC02051C5A7004D8D25 /* Wall of my room.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wall of my room.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
-		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
 		5E0E37522065981C008FA4BE /* BuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E0E37542065A065008FA4BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -454,6 +471,25 @@
 		CB95A99622441342009401B7 /* ButtomREP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomREP.png; sourceTree = "<group>"; };
 		CB95A99722441342009401B7 /* ButtomSelectVOWELS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomSelectVOWELS.png; sourceTree = "<group>"; };
 		CB95A9A022441618009401B7 /* SKButtomMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKButtomMenu.swift; sourceTree = "<group>"; };
+		CB95A9D8224544BC009401B7 /* Page0.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Page0.sks; sourceTree = "<group>"; };
+		CB95A9DA224544F1009401B7 /* Page0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page0.swift; sourceTree = "<group>"; };
+		CB95A9DE2245457D009401B7 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		CB95A9E02245458B009401B7 /* Page1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Page1.sks; sourceTree = "<group>"; };
+		CB95A9E22245459C009401B7 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		CB95A9E4224545AB009401B7 /* Page2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Page2.sks; sourceTree = "<group>"; };
+		CB95A9E6224560DB009401B7 /* DisableBlackLightButtom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DisableBlackLightButtom.png; sourceTree = "<group>"; };
+		CB95A9E7224560DC009401B7 /* EnableLightButtom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnableLightButtom.png; sourceTree = "<group>"; };
+		CB95A9EA22458551009401B7 /* ButtomT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomT.png; sourceTree = "<group>"; };
+		CB95A9EB22458551009401B7 /* ButtomHR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomHR.png; sourceTree = "<group>"; };
+		CB95A9EC22458551009401B7 /* ButtomOUPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomOUPress.png; sourceTree = "<group>"; };
+		CB95A9ED22458551009401B7 /* ButtomOU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomOU.png; sourceTree = "<group>"; };
+		CB95A9EE22458551009401B7 /* ButtomHRPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomHRPress.png; sourceTree = "<group>"; };
+		CB95A9EF22458551009401B7 /* ButtomGH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomGH.png; sourceTree = "<group>"; };
+		CB95A9F022458551009401B7 /* luzLigarPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luzLigarPress.png; sourceTree = "<group>"; };
+		CB95A9F122458552009401B7 /* ButtomGHPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomGHPress.png; sourceTree = "<group>"; };
+		CB95A9F222458552009401B7 /* ButtomTPress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtomTPress.png; sourceTree = "<group>"; };
+		CB95A9F322458552009401B7 /* luzLigar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luzLigar.png; sourceTree = "<group>"; };
+		CB95A9FE224588C9009401B7 /* Ailerons-Typeface.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ailerons-Typeface.otf"; sourceTree = "<group>"; };
 		CBD06AE822417DBF0019185F /* FIrstScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FIrstScene.sks; sourceTree = "<group>"; };
 		CBD06AEA22417E880019185F /* FIrstScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIrstScene.swift; sourceTree = "<group>"; };
 		CBF3B226224296DD0095372D /* ConsoantesScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ConsoantesScene.sks; sourceTree = "<group>"; };
@@ -488,7 +524,7 @@
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */,
+				5E086DC02051C5A7004D8D25 /* Wall of my room.playgroundbook */,
 				5EF2F9AB2054BBF300191409 /* libBook_Sources.a */,
 				5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */,
 			);
@@ -594,11 +630,11 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				CB95A9FE224588C9009401B7 /* Ailerons-Typeface.otf */,
 				CB95A98F22441342009401B7 /* Buttom */,
 				CB95A8442243FDEA009401B7 /* Letras */,
 				CB95A8972243FDEA009401B7 /* Simbolos Opacos */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
-				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 			);
 			path = PrivateResources;
 			sourceTree = "<group>";
@@ -863,6 +899,18 @@
 		CB95A98F22441342009401B7 /* Buttom */ = {
 			isa = PBXGroup;
 			children = (
+				CB95A9EF22458551009401B7 /* ButtomGH.png */,
+				CB95A9F122458552009401B7 /* ButtomGHPress.png */,
+				CB95A9EB22458551009401B7 /* ButtomHR.png */,
+				CB95A9EE22458551009401B7 /* ButtomHRPress.png */,
+				CB95A9ED22458551009401B7 /* ButtomOU.png */,
+				CB95A9EC22458551009401B7 /* ButtomOUPress.png */,
+				CB95A9EA22458551009401B7 /* ButtomT.png */,
+				CB95A9F222458552009401B7 /* ButtomTPress.png */,
+				CB95A9F322458552009401B7 /* luzLigar.png */,
+				CB95A9F022458551009401B7 /* luzLigarPress.png */,
+				CB95A9E6224560DB009401B7 /* DisableBlackLightButtom.png */,
+				CB95A9E7224560DC009401B7 /* EnableLightButtom.png */,
 				CB95A99022441342009401B7 /* ButtomSelectREP.png */,
 				CB95A99622441342009401B7 /* ButtomREP.png */,
 				CB95A99122441342009401B7 /* ButtomVOWELS.png */,
@@ -875,9 +923,39 @@
 			path = Buttom;
 			sourceTree = "<group>";
 		};
+		CB95A9D72245448B009401B7 /* page0 */ = {
+			isa = PBXGroup;
+			children = (
+				CB95A9DA224544F1009401B7 /* Page0.swift */,
+				CB95A9D8224544BC009401B7 /* Page0.sks */,
+			);
+			path = page0;
+			sourceTree = "<group>";
+		};
+		CB95A9DC2245455D009401B7 /* page2 */ = {
+			isa = PBXGroup;
+			children = (
+				CB95A9E22245459C009401B7 /* Page2.swift */,
+				CB95A9E4224545AB009401B7 /* Page2.sks */,
+			);
+			path = page2;
+			sourceTree = "<group>";
+		};
+		CB95A9DD22454560009401B7 /* page1 */ = {
+			isa = PBXGroup;
+			children = (
+				CB95A9DE2245457D009401B7 /* Page1.swift */,
+				CB95A9E02245458B009401B7 /* Page1.sks */,
+			);
+			path = page1;
+			sourceTree = "<group>";
+		};
 		CBD06AE722417D8E0019185F /* GameScene */ = {
 			isa = PBXGroup;
 			children = (
+				CB95A9D72245448B009401B7 /* page0 */,
+				CB95A9DD22454560009401B7 /* page1 */,
+				CB95A9DC2245455D009401B7 /* page2 */,
 				CBF3B225224296A40095372D /* BoardScene */,
 				CBF3B224224296990095372D /* Consoantes */,
 				CBF3B223224296960095372D /* Tabuleiros */,
@@ -950,7 +1028,7 @@
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
-			productReference = 5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */;
+			productReference = 5E086DC02051C5A7004D8D25 /* Wall of my room.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5EA2E3BC2056F35A00416A35 /* LiveViewTestApp */ = {
@@ -1040,11 +1118,13 @@
 			files = (
 				CB95A8FF2243FDEA009401B7 /* Tabuleiro_V_char.png in Resources */,
 				CB95A9822243FDEA009401B7 /* Vogal_eo_simbol.png in Resources */,
+				CB95A9F622458552009401B7 /* ButtomOUPress.png in Resources */,
 				CB95A9712243FDEA009401B7 /* Vogal_o_simbol.png in Resources */,
 				CB95A9182243FDEA009401B7 /* Tabuleiro_M_char.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				CB95A9132243FDEA009401B7 /* Tabuleiro_X_char.png in Resources */,
 				CB95A8ED2243FDEA009401B7 /* Consoante_n_char.png in Resources */,
+				CB95A9F722458552009401B7 /* ButtomOU.png in Resources */,
 				CB95A9852243FDEA009401B7 /* Vogal_io_simbol.png in Resources */,
 				CB95A9432243FDEA009401B7 /* Tabuleiro_Q_simbol.png in Resources */,
 				CB95A9262243FDEA009401B7 /* Vogal_uo_char.png in Resources */,
@@ -1055,21 +1135,27 @@
 				CB95A9042243FDEA009401B7 /* Tabuleiro_C_char.png in Resources */,
 				CB95A8FC2243FDEA009401B7 /* Consoante_t_char.png in Resources */,
 				CB95A9152243FDEA009401B7 /* Tabuleiro_F_char.png in Resources */,
+				CB95A9D9224544BC009401B7 /* Page0.sks in Resources */,
+				CB95A9E9224560DC009401B7 /* EnableLightButtom.png in Resources */,
 				CB95A95C2243FDEA009401B7 /* Consoante_d_simbol.png in Resources */,
+				CB95A9F522458552009401B7 /* ButtomHR.png in Resources */,
 				CB95A9352243FDEA009401B7 /* Vogal_aa_char.png in Resources */,
 				CB95A9002243FDEA009401B7 /* Tabuleiro_W_char.png in Resources */,
+				CB95A9E12245458B009401B7 /* Page1.sks in Resources */,
 				CB95A9792243FDEA009401B7 /* Vogal_uo_simbol.png in Resources */,
 				CB95A96C2243FDEA009401B7 /* Vogal_ii_simbol.png in Resources */,
 				CB95A96F2243FDEA009401B7 /* Vogal_ae_simbol.png in Resources */,
 				CB95A9732243FDEA009401B7 /* Vogal_ao_simbol.png in Resources */,
 				CB95A9832243FDEA009401B7 /* Vogal_u_simbol.png in Resources */,
 				CB95A9842243FDEA009401B7 /* Vogal_ue_simbol.png in Resources */,
+				CB95A9F822458552009401B7 /* ButtomHRPress.png in Resources */,
 				CB95A9382243FDEA009401B7 /* Tabuleiro_V_simbol.png in Resources */,
 				CB95A8FA2243FDEA009401B7 /* Consoante_x_char.png in Resources */,
 				CB95A9562243FDEA009401B7 /* Consoante_f_simbol.png in Resources */,
 				CB95A95E2243FDEA009401B7 /* Consoante_g_simbol.png in Resources */,
 				CB95A9022243FDEA009401B7 /* Tabuleiro_I_char.png in Resources */,
 				CB95A9422243FDEA009401B7 /* Tabuleiro_O_simbol.png in Resources */,
+				CB95A9FB22458552009401B7 /* ButtomGHPress.png in Resources */,
 				CB95A91B2243FDEA009401B7 /* Vogal_ia_char.png in Resources */,
 				CB95A97C2243FDEA009401B7 /* Vogal_aa_simbol.png in Resources */,
 				CB95A99822441342009401B7 /* ButtomSelectREP.png in Resources */,
@@ -1081,11 +1167,13 @@
 				CB95A8F92243FDEA009401B7 /* Consoante_s_char.png in Resources */,
 				CB95A95D2243FDEA009401B7 /* Consoante_w_simbol.png in Resources */,
 				CB95A94E2243FDEA009401B7 /* Tabuleiro_K_simbol.png in Resources */,
+				CB95A9FA22458552009401B7 /* luzLigarPress.png in Resources */,
 				CB95A9332243FDEA009401B7 /* Vogal_au_char.png in Resources */,
 				CB95A90D2243FDEA009401B7 /* Tabuleiro_K_char.png in Resources */,
 				CB95A9472243FDEA009401B7 /* Tabuleiro_W_simbol.png in Resources */,
 				CB95A8F82243FDEA009401B7 /* Consoante_r_char.png in Resources */,
 				CB95A9082243FDEA009401B7 /* Tabuleiro_D_char.png in Resources */,
+				CB95A9FC22458552009401B7 /* ButtomTPress.png in Resources */,
 				CBF3B22D224297140095372D /* TabuleiroScene.sks in Resources */,
 				CBD06AE922417DBF0019185F /* FIrstScene.sks in Resources */,
 				CB95A95F2243FDEA009401B7 /* Consoante_y_simbol.png in Resources */,
@@ -1095,6 +1183,8 @@
 				CB95A9722243FDEA009401B7 /* Vogal_eu_simbol.png in Resources */,
 				CB95A9582243FDEA009401B7 /* Consoante_k_simbol.png in Resources */,
 				CB95A96D2243FDEA009401B7 /* Vogal_ea_simbol.png in Resources */,
+				CB95A9F422458552009401B7 /* ButtomT.png in Resources */,
+				CB95A9E8224560DC009401B7 /* DisableBlackLightButtom.png in Resources */,
 				CB95A9212243FDEA009401B7 /* Vogal_ao_char.png in Resources */,
 				CB95A9772243FDEA009401B7 /* Vogal_ua_simbol.png in Resources */,
 				CB95A91A2243FDEA009401B7 /* Vogal_ou_char.png in Resources */,
@@ -1118,6 +1208,7 @@
 				CB95A9232243FDEA009401B7 /* Vogal_ea_char.png in Resources */,
 				CB95A9092243FDEA009401B7 /* Tabuleiro_Z_char.png in Resources */,
 				CB95A9282243FDEA009401B7 /* Vogal_ee_char.png in Resources */,
+				CB95A9F922458552009401B7 /* ButtomGH.png in Resources */,
 				CB95A9062243FDEA009401B7 /* Tabuleiro_N_char.png in Resources */,
 				CB95A9642243FDEA009401B7 /* Consoante_v_simbol.png in Resources */,
 				CB95A9412243FDEA009401B7 /* Tabuleiro_B_simbol.png in Resources */,
@@ -1133,7 +1224,6 @@
 				CB95A9812243FDEA009401B7 /* Vogal_oe_simbol.png in Resources */,
 				CB95A97B2243FDEA009401B7 /* Vogal_i_simbol.png in Resources */,
 				CB95A9622243FDEA009401B7 /* Consoante_q_simbol.png in Resources */,
-				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 				CB95A9512243FDEA009401B7 /* Tabuleiro_X_simbol.png in Resources */,
 				CB95A9192243FDEA009401B7 /* Rep_2_char.png in Resources */,
 				CB95A9702243FDEA009401B7 /* Vogal_oa_simbol.png in Resources */,
@@ -1155,6 +1245,7 @@
 				CB95A8FB2243FDEA009401B7 /* Consoante_y_char.png in Resources */,
 				CB95A9742243FDEA009401B7 /* Vogal_ui_simbol.png in Resources */,
 				CB95A9392243FDEA009401B7 /* Tabuleiro_H_simbol.png in Resources */,
+				CB95A9FD22458552009401B7 /* luzLigar.png in Resources */,
 				CB95A9632243FDEA009401B7 /* Consoante_b_simbol.png in Resources */,
 				CB95A9222243FDEA009401B7 /* Vogal_u_char.png in Resources */,
 				CB95A9142243FDEA009401B7 /* Tabuleiro_Y_char.png in Resources */,
@@ -1164,7 +1255,9 @@
 				CB95A9762243FDEA009401B7 /* Vogal_iu_simbol.png in Resources */,
 				CB95A8F02243FDEA009401B7 /* Consoante_b_char.png in Resources */,
 				CB95A99B22441342009401B7 /* ButtomSelectCONSONANTS.png in Resources */,
+				CB95A9E5224545AB009401B7 /* Page2.sks in Resources */,
 				CB95A9532243FDEA009401B7 /* Consoante_n_simbol.png in Resources */,
+				CB95A9FF224588C9009401B7 /* Ailerons-Typeface.otf in Resources */,
 				CB95A8EA2243FDEA009401B7 /* Consoante_z_char.png in Resources */,
 				CB95A97A2243FDEA009401B7 /* Vogal_ie_simbol.png in Resources */,
 				CB95A94B2243FDEA009401B7 /* Tabuleiro_C_simbol.png in Resources */,
@@ -1260,8 +1353,11 @@
 				CBF3B2522242D2480095372D /* classCard.swift in Sources */,
 				CBF3B229224296E80095372D /* ConsoantesScene.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				CB95A9E32245459C009401B7 /* Page2.swift in Sources */,
 				CBF3B2542242D48F0095372D /* enums.swift in Sources */,
+				CB95A9DF2245457D009401B7 /* Page1.swift in Sources */,
 				CB95A7012242EF3D009401B7 /* SKButton.swift in Sources */,
+				CB95A9DB224544F1009401B7 /* Page0.swift in Sources */,
 				CBD06AEB22417E880019185F /* FIrstScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1287,14 +1383,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E086DCD2051DDB8004D8D25 /* Base */,
-			);
-			name = LiveView.storyboard;
-			sourceTree = "<group>";
-		};
 		5EA2E3C82056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

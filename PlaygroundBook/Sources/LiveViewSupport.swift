@@ -45,3 +45,41 @@ public func troca(coisa: String){
     coiso2 = coisa
 }
 
+public func returnPage0 () -> SKView {
+    // Load the SKScene from 'GameScene.sks'
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 2058, height: 1560))
+    if let scene = Page0(fileNamed: "Page0") {
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFit
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+}
+
+public func returnPage1 () -> SKView {
+    // Load the SKScene from 'GameScene.sks'
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 2058, height: 1560))
+    if let scene = Page1(fileNamed: "Page1") {
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFit
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+}
+
+public func returnPage2 () -> SKView {
+    // Load the SKScene from 'GameScene.sks'
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 2058, height: 1560))
+    if let scene = Page2(fileNamed: "Page2") {
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFit
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+}
